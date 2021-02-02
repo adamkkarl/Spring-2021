@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:officeooo="http://openoffice.org/2009/office" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2021-01-25T19:21:16.992000000</meta:creation-date><dc:date>2021-01-26T16:51:53.903000000</dc:date><meta:editing-duration>PT16M44S</meta:editing-duration><meta:editing-cycles>4</meta:editing-cycles><meta:generator>LibreOffice/6.4.7.2$Windows_X86_64 LibreOffice_project/639b8ac485750d5696d7590a72ef1b496725cfb5</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="1" meta:paragraph-count="6" meta:word-count="200" meta:character-count="1176" meta:non-whitespace-character-count="982"/></office:meta>
+ <office:meta><meta:creation-date>2021-01-26T17:01:51.421000000</meta:creation-date><dc:date>2021-01-26T17:49:34.902000000</dc:date><meta:editing-duration>PT6M32S</meta:editing-duration><meta:editing-cycles>1</meta:editing-cycles><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="1" meta:paragraph-count="4" meta:word-count="282" meta:character-count="1800" meta:non-whitespace-character-count="1517"/><meta:generator>LibreOffice/6.4.7.2$Windows_X86_64 LibreOffice_project/639b8ac485750d5696d7590a72ef1b496725cfb5</meta:generator></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">1235</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">20551</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">18479</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">10989</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">6606</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">2501</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">2501</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">0</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">1235</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">20549</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">18477</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">19711</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -80,13 +80,13 @@
    <config:config-item config:name="TableRowKeep" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
    <config:config-item config:name="IgnoreTabsAndBlanksForLineCalculation" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="RsidRoot" config:type="int">1399090</config:config-item>
+   <config:config-item config:name="RsidRoot" config:type="int">1854380</config:config-item>
    <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
    <config:config-item config:name="ClipAsCharacterAnchoredWriterFlyFrames" config:type="boolean">false</config:config-item>
    <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">1727819</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">2129486</config:config-item>
    <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
@@ -135,7 +135,7 @@
   </office:script>
  </office:scripts>
  <office:font-face-decls>
-  <style:font-face style:name="Calibri" svg:font-family="Calibri, Arial, Helvetica, sans-serif"/>
+  <style:font-face style:name="sans-serif" svg:font-family="sans-serif"/>
   <style:font-face style:name="Lucida Sans1" svg:font-family="&apos;Lucida Sans&apos;" style:font-family-generic="swiss"/>
   <style:font-face style:name="Liberation Serif" svg:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
   <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
@@ -146,7 +146,7 @@
  <office:styles>
   <style:default-style style:family="graphic">
    <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.1181in" draw:shadow-offset-y="0.1181in" draw:start-line-spacing-horizontal="0.1114in" draw:start-line-spacing-vertical="0.1114in" draw:end-line-spacing-horizontal="0.1114in" draw:end-line-spacing-vertical="0.1114in" style:flow-with-text="false"/>
-   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:font-independent-line-spacing="false">
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="US" style:letter-kerning="true" style:font-name-asian="NSimSun" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Lucida Sans" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
@@ -238,56 +238,31 @@
  </office:styles>
  <office:automatic-styles>
   <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties officeooo:paragraph-rsid="00164e3d"/>
-  </style:style>
-  <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties officeooo:paragraph-rsid="00155932"/>
-  </style:style>
-  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0in" loext:contextual-spacing="false"/>
-   <style:text-properties fo:color="#000000" style:font-name="Calibri" fo:font-size="12pt" fo:background-color="#ffffff"/>
-  </style:style>
-  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
-   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0in" loext:contextual-spacing="false" fo:line-height="100%" fo:background-color="transparent"/>
-   <style:text-properties fo:color="#000000" style:font-name="Calibri" fo:font-size="12pt" fo:background-color="#ffffff"/>
-  </style:style>
-  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
-   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0in" loext:contextual-spacing="false" fo:line-height="100%" fo:background-color="transparent"/>
-  </style:style>
-  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
-   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0in" loext:contextual-spacing="false" fo:line-height="100%" fo:background-color="transparent"/>
-   <style:text-properties fo:color="#000000" style:font-name="Calibri" fo:font-size="12pt" fo:background-color="#ffffff"/>
-  </style:style>
-  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0in" loext:contextual-spacing="false"/>
-   <style:text-properties fo:color="#000000" style:font-name="Calibri" fo:font-size="12pt" officeooo:rsid="001961f8" officeooo:paragraph-rsid="001961f8" fo:background-color="#ffffff"/>
+   <style:text-properties officeooo:paragraph-rsid="001c4bac"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
-   <style:text-properties officeooo:rsid="00155932"/>
+   <style:text-properties style:font-name="sans-serif" fo:font-size="11.25pt"/>
   </style:style>
   <style:style style:name="T2" style:family="text">
-   <style:text-properties officeooo:rsid="00164e3d"/>
+   <style:text-properties style:font-name="sans-serif" fo:font-size="11.25pt" officeooo:rsid="001c4bac"/>
   </style:style>
   <style:style style:name="T3" style:family="text">
-   <style:text-properties officeooo:rsid="0016818d"/>
+   <style:text-properties officeooo:rsid="001c4bac"/>
   </style:style>
   <style:style style:name="T4" style:family="text">
-   <style:text-properties officeooo:rsid="001799bd"/>
+   <style:text-properties officeooo:rsid="001d5e08"/>
   </style:style>
   <style:style style:name="T5" style:family="text">
-   <style:text-properties officeooo:rsid="0019432d"/>
+   <style:text-properties officeooo:rsid="001dd2d8"/>
   </style:style>
   <style:style style:name="T6" style:family="text">
-   <style:text-properties fo:color="#000000" style:font-name="Calibri" fo:font-size="12pt" fo:background-color="#ffffff" loext:char-shading-value="0"/>
+   <style:text-properties officeooo:rsid="001f4d7c"/>
   </style:style>
   <style:style style:name="T7" style:family="text">
-   <style:text-properties officeooo:rsid="001961f8"/>
+   <style:text-properties officeooo:rsid="00207e4e"/>
   </style:style>
   <style:page-layout style:name="pm1">
-   <style:page-layout-properties fo:page-width="8.5in" fo:page-height="11in" style:num-format="1" style:print-orientation="portrait" fo:margin-top="0.7874in" fo:margin-bottom="0.7874in" fo:margin-left="0.7874in" fo:margin-right="0.7874in" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.278in" style:layout-grid-ruby-height="0.139in" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0in">
+   <style:page-layout-properties fo:page-width="8.5in" fo:page-height="11in" style:num-format="1" style:print-orientation="portrait" fo:margin-top="0.7874in" fo:margin-bottom="0.7874in" fo:margin-left="0.7874in" fo:margin-right="0.7874in" style:writing-mode="lr-tb" style:footnote-max-height="0in">
     <style:footnote-sep style:width="0.0071in" style:distance-before-sep="0.0398in" style:distance-after-sep="0.0398in" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
    </style:page-layout-properties>
    <style:header-style/>
@@ -306,17 +281,10 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
-   <text:p text:style-name="P4"><text:span text:style-name="T7">Hello </text:span>Mrs. Smith-Ferris,</text:p>
-   <text:p text:style-name="P5"/>
-   <text:p text:style-name="P4">My name is Adam, and I&apos;m studying Computer Science and hoping to work in software development in the future. After taking a couple of years off from school to rethink my major (previously physics) and become more financially stable, I transferred to Pitt last fall.</text:p>
-   <text:p text:style-name="P4"/>
-   <text:p text:style-name="P4">Taking Sci-fi East and West last spring was the first time in my academic career that I had a positive experience with a writing course. Typically, I find the process of writing papers to be extremely tedious and grating, and something I only do in order to earn a grade. However, for that class the combination of topics I was actually interested in along with the professor’s relaxed grading scale resulted in an environment where I was fully invested in the quality of my writing.</text:p>
-   <text:p text:style-name="P4"/>
-   <text:p text:style-name="P4">Entertainment, especially movies and television, has been a core part of my life since I became entranced with Breaking Bad in 2014. In another life, I might’ve pursued becoming a movie critic as a career, but being able to better express my thoughts through writing would still help me have better casual conversations about what aspects of stories and media I find so meaningful.</text:p>
-   <text:p text:style-name="P5"/>
-   <text:p text:style-name="P4">Adam Karl</text:p>
-   <text:p text:style-name="P7">akk67@pitt.edu</text:p>
-   <text:p text:style-name="Standard"/>
+   <text:p text:style-name="P1"><text:span text:style-name="T3"><text:tab/>In this essay, Stewart combines pieces from several other essays as well as his own ideas to attempt to better understand and define the rhetoric of social movements. His core concept is that the actual language and rhetoric surrounding a social movement </text:span><text:span text:style-name="T4">is </text:span><text:span text:style-name="T6">inseparable from the movement itself, and serves a core role in spreading awareness of the movement, as well as recruiting members and gaining public legitimacy.</text:span></text:p>
+   <text:p text:style-name="P1"><text:tab/><text:span text:style-name="T6">It seems pretty straightforward that the rhetoric surrounding a social movement is crucial to the movement’s success. Any movement needs a certain level of positive branding (there’s a reason that </text:span><text:span text:style-name="T7">movements both for and against legal abortions use “pro” in their name). </text:span><text:span text:style-name="T6">However, I’m a little uncertain of what Stewart considers to be in the bounds of the movement’s rhetoric. For instance, would </text:span><text:span text:style-name="T7">he only consider “Black Lives Matter” and other forward-facing ideas to be the rhetoric, or would he also include more comprehensive arguments regarding systematic racism, police brutality, unjust criminal justice systems, etc. to also be included?</text:span></text:p>
+   <text:p text:style-name="P1"><text:tab/><text:span text:style-name="T4">In a strange way, this essay made me begrudgingly realize just how effective “Make America Great Again” is as a revivalistic/</text:span><text:span text:style-name="T6">reactionary</text:span><text:span text:style-name="T4"> slogan. It capitalizes on the </text:span><text:span text:style-name="T5">common perception of an idealized past, as well as appeals to a wide range of people in the conservative spectrum, from pro-gun libertarians (who might imagine the late 1700s) to white supremacists (who might imagine the segregation era or earlier) or anyone frustrated with Obama’s presidency. This ambiguity is also a strength when defending the movement, since the person defending it can change their stance of when exactly America was great based on how much pressure the opponent puts on regarding slavery, women’s voting rights, segregation, or social issues.</text:span></text:p>
+   <text:p text:style-name="P1"><text:tab/></text:p>
   </office:text>
  </office:body>
 </office:document>
