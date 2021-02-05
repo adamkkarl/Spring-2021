@@ -1,0 +1,3 @@
+Computer Scientist’s/Computer Engineer’s Commitment
+I read the class handout about examples of permissible and prohibited collaboration and on my honor as a student in CS1645/CS2045 in the Spring 2021 term, I will neither give nor receive aid on my assignments and exams.
+Adam Karl 2/5/2021
