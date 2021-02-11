@@ -22,30 +22,50 @@
 \maketitle
 
 \section{Problem 1}
+Part 1
+
 \begin{itemize}
-    \item Part 1: 
-    \begin{itemize}
-        \item mean = 15.0415
-        \item standard deviation = 5.0279
-    \end{itemize}
+    \item mean = 15.0415
+    \item standard deviation = 5.0279
 \end{itemize}
+The calculated mean and standard deviations are each a few hundredths off of the true values. This is likely because matlab is rounding our input values to a certain number of decimal places.
+
+\medskip
+\noindent
+Part 4
+
 
 \begin{center}
     \includegraphics[scale=1]{meansHistogram25.png}
     \caption{Subsample size = 25}
 \end{center}
+The means have a roughly normal distribution around the true mean of 15.
+
+\noindent
+The mean of all subsample means was calculated to be 15.0587.
+
   
+\bigskip
+\noindent
+Part 5
 
 \begin{center}
     \includegraphics[scale=1]{meansHistogram40.png}
     \caption{Subsample size = 40}
 \end{center}
 
-
-
+\noindent 
+The means for a subsample size of 40 have a marginally tighter grouping than the 25-size subsample means around the true mean of 15. It's possible I was unlucky with my samples, but a subsample size of 40 does not appear to be much more accurate than a subsample size of 25.
 
 \noindent
-The first 25 elements have a mean = 14.5625
+The mean of all subsample means was calculated to be 15.0371.
+
+\bigskip
+\noindent
+Part 6
+
+\noindent
+The first 25 elements have a mean of 14.5625.
 
 \smallskip
 \noindent
@@ -113,4 +133,30 @@ c. The outcome of 4 has a 1/12 chance. Therefore, the probability of NOT 4 is $1
 \noindent
 The probability of an odd outcome is equal to p(3) + p(5) + p(7) + p(9) + p(11) = $1/18+1/9+1/6+1/9+1/18=0.5$. The chance of an odd outcome all 5 trials is $0.5^5=0.03125$ (or 1/32).
 
+\section{Problem 4}
+
+\section{Problem 5}
+a. 
+
+\medskip
+\noindent
+b.
+
+\section{Problem 6}
+Applying Bayes' theorem:
+
+\[P(infected|positive) = \frac{P(positive| infected)P(infected)}{P(positive)}\]
+
+\[P(infected|positive) = \frac{P(positive| infected)P(infected)}{P(false positive) + P(true positive)}\]
+
+\[P(infected|positive) = \frac{0.99*0.0001}{0.9999*0.01 + 0.0001*0.99}\]
+
+\[P(infected|positive) = \frac{0.99*0.0001}{0.9999*0.01 + 0.0001*0.99}\]
+
+\[P(infected|positive) \approx 0.0098\]
+
+\noindent
+Since the probability that a person that tested positive is actually infected is only about 1\%, I cannot recommend this test be widely adopted.
+
 \end{document}
+
