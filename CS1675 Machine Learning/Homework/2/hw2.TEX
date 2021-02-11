@@ -73,6 +73,59 @@ The 95\% confidence interval has a range of 12.6392 to 16.4974. The true mean of
 
 \section{Problem 2}
 
+\begin{itemize}
+    \item m=1
+    \begin{itemize}
+        \item test mean = 2.1346
+        \item test std = 3.2383
+    \end{itemize}
+    \item m=2
+    \begin{itemize}
+        \item test mean = 2.1077
+        \item test std = 3.2509
+    \end{itemize}
+    \item m=3
+    \begin{itemize}
+        \item test mean = 2.1798
+        \item test std = 3.2644
+    \end{itemize}
+    \item m=4
+    \begin{itemize}
+        \item test mean = 1.9794
+        \item test std = 3.2421
+    \end{itemize}
+    \item m=5
+    \begin{itemize}
+        \item test mean = 2.0685
+        \item test std = 3.2890
+    \end{itemize}
+    \item m=6
+    \begin{itemize}
+        \item test mean = 2.0369
+        \item test std = 3.3452
+    \end{itemize}
+    \item m=7
+    \begin{itemize}
+        \item test mean = 2.1467
+        \item test std = 3.3005
+    \end{itemize}
+    \item m=8
+    \begin{itemize}
+        \item test mean = 2.0701
+        \item test std = 3.3043
+    \end{itemize}
+    \item m=9
+    \begin{itemize}
+        \item test mean = 1.9808
+        \item test std = 3.2341
+    \end{itemize}
+    \item m=10
+    \begin{itemize}
+        \item test mean = 2.0516
+        \item test std = 3.1796
+    \end{itemize}
+\end{itemize}
+
 \section{Problem 3}
 a.
 \begin{itemize}
@@ -134,15 +187,6 @@ c. The outcome of 4 has a 1/12 chance. Therefore, the probability of NOT 4 is $1
 The probability of an odd outcome is equal to p(3) + p(5) + p(7) + p(9) + p(11) = $1/18+1/9+1/6+1/9+1/18=0.5$. The chance of an odd outcome all 5 trials is $0.5^5=0.03125$ (or 1/32).
 
 \section{Problem 4}
-
-\section{Problem 5}
-a. 
-
-\medskip
-\noindent
-b.
-
-\section{Problem 6}
 Applying Bayes' theorem:
 
 \[P(infected|positive) = \frac{P(positive| infected)P(infected)}{P(positive)}\]
@@ -158,5 +202,93 @@ Applying Bayes' theorem:
 \noindent
 Since the probability that a person that tested positive is actually infected is only about 1\%, I cannot recommend this test be widely adopted.
 
-\end{document}
+\section{Problem 5}
+a. Simply integrate the probability density function over the range (a to b):
 
+\[ \int_{a}^{b} \frac{1}{b-a} \,dx \]
+
+\[ \frac{1}{b-a} \int_{a}^{b} 1  \,dx \]
+
+\[ (\frac{1}{b-a}) x \Big|_a^b  \]
+
+\[ (\frac{1}{b-a}) (b-a)  \]
+
+\[ 1 \]
+
+\medskip
+\noindent
+b. For a continuous distribution, to get the mean we integrate $x*f(x)$ over the entire range (here, from a to b):
+
+\[ \int_{a}^{b} x\frac{1}{b-a} \,dx \]
+
+\[ \frac{1}{b-a} \int_{a}^{b} x \,dx \]
+
+\[ (\frac{1}{b-a}) \frac{1}{2}x^2 \Big|_a^b  \]
+
+\[ (\frac{1}{b-a}) \frac{1}{2}(b^2-a^2)  \]
+
+\[ (\frac{1}{b-a}) \frac{1}{2}(b+a)(b-a)  \]
+
+\[ (\frac{1}{b-a}) \frac{1}{2}(b+a)(b-a)  \]
+
+\[ \frac{b+a}{2}  \]
+
+\noindent
+This makes logical sense, since it is the midpoint of the uniform distribution.
+
+\section{Problem 6}
+
+a. 65/100 = 0.65
+
+\noindent
+b. 
+
+\begin{center}
+    \includegraphics[scale=1]{6-b-prior.png}
+    \caption{prior}
+\end{center}
+
+The prior distribution an a uniform distribution from 0 to 1.
+
+\begin{center}
+    \includegraphics[scale=1]{6-b.png}
+    \caption{posterior}
+\end{center}
+
+The posterior distribution is a normal-like distribution centered on our estimated theta of 0.65.
+
+\noindent
+c. 
+\[ \theta_{MAP} = \frac{N_1+\alpha_1-1}{N_1+N_2+\alpha_1+\alpha_2-2} \]
+
+\[ \theta_{MAP} =\frac{65+1-1}{65+35+1+1-2} \]
+
+\[ \theta_{MAP} =\frac{65}{100}=0.65 \]
+
+\begin{center}
+    \includegraphics[scale=1]{6-c.png}
+    \caption{$\theta_{MAP} = 0.65$}
+\end{center}
+
+
+
+\noindent 
+d. 
+
+\begin{center}
+    \includegraphics[scale=1]{6-d-prior.png}
+    \caption{prior}
+\end{center}
+
+\[ \theta_{MAP} = \frac{N_1+\alpha_1-1}{N_1+N_2+\alpha_1+\alpha_2-2} \]
+
+\[ \theta_{MAP} =\frac{65+4-1}{65+35+4+2-2} \]
+
+\[ \theta_{MAP} =\frac{68}{104}\approx 0.6538 \]
+
+\begin{center}
+    \includegraphics[scale=1]{6-d-posterior.png}
+    \caption{$\theta_{map}\approx 0.6538$} 
+\end{center}
+
+\end{document}
