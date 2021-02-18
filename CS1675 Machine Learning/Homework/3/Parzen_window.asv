@@ -1,0 +1,12 @@
+function [densityx] = Parzen_window(x,h,D)
+%calculate a probability est given x using a Parzen window
+    N=length(D);
+    V=2*h;         %since centered on x
+    K=0;
+    for i=1:N
+        if (x-h < D(i)) && (D(i) < x+h)
+            K=K+1;   %increment number in region
+        end
+    end
+    
+    densityx = K/(N*V)
