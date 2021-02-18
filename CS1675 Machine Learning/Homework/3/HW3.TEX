@@ -22,6 +22,8 @@
 \maketitle
 
 \section{Problem 1}
+
+\noindent
 a.
 
 \begin{center}
@@ -29,12 +31,15 @@ a.
 %    \caption{Subsample size = 25}
 \end{center}
 
+\noindent
 b. 
 
+\noindent
 mean vector: 
 
 $$\left( \begin{matrix} 3.6377 & 7.8506 \end{matrix} \right) $$
 
+\noindent
 covariance matrix:
 
 
@@ -45,6 +50,7 @@ $$\left( \begin{matrix} 3.6414 & 1.0779 \\ 1.0779 & 3.7831 \end{matrix} \right) 
 %    \caption{Subsample size = 25}
 \end{center}
 
+\noindent
 c. 
 \begin{itemize}
     \item var 1
@@ -71,10 +77,19 @@ c.
     \caption{variable 2}
 \end{center}
 
+\noindent
 d. 
+
+\noindent
+The multivariate Gaussian model is certainly better than two separate univariate Gaussian models because it includes correlation data. For this specific example, the correlation is extremely loose (value of 1.0779 from the covariance matrix) so it's not quite as important, but for other data sets it may have a much more noticeable correlation.
+
+\noindent
+For instance, if var1 was father heights and var2 was children heights, then if you only looked at each variable individually then you would only see two normal-like distributions, and completely miss that taller fathers correspond to taller children.
 
 
 \section{Problem 2}
+
+\noindent
 a.
 
 \begin{center}
@@ -87,9 +102,11 @@ a.
     \caption{lambda = 6}
 \end{center}
 
+\noindent
 b. 
 $\lambda_{ML}$ = mean = 5.2400
 
+\noindent
 Since variance = mean/n, we can calculate the standard deviation = 0.4578 and plot:
 
 \begin{center}
@@ -109,8 +126,10 @@ c.
     \caption{beta dist with a=3, b=5}
 \end{center}
 
+\noindent
 d.
 
+\noindent
 a=1, b=2:
 
 $$p(\lambda|D)\sim Gamma(\lambda |a+\sum_{i=1}^{n}x_i, \frac{b}{nb+1})$$
@@ -148,9 +167,13 @@ Part 1
     \caption{training data}
 \end{center}
 
+\noindent
 Part 2
 
+\noindent
 a.
+
+\noindent
 with h=0.025
 \begin{itemize}
     \item p(0.1362) = 1.6
@@ -166,8 +189,11 @@ with h=0.025
     \caption{h=0.025}
 \end{center}
 
+\noindent
 b. 
-with h=0.1
+
+\noindent
+with h=0.1:
 \begin{itemize}
     \item p(0.1362) = 1.4667
     \item p(0.2928) = 0.2667
@@ -177,14 +203,22 @@ with h=0.1
     \item p(0.6664) = 1.7333
 \end{itemize}
 
-
 \begin{center}
     \includegraphics[scale=1]{3b.png}
     \caption{h=0.1}
 \end{center}
 
-c. 
-k=3
+\noindent
+Increasing the h from 0.025 to 0.1 seems to smooth out the graph a lot, while decreasing the amplitude of the probability function. In the h=0.025 graph it's more obvious that individual points correspond to spikes in the graph. The peaks are still generally in the same places, but heavily smoothed out.
+
+\noindent
+Part 3
+
+\noindent
+a.
+
+\noindent
+with k=3:
 \begin{itemize}
     \item p(0.1362) = 1.7814
     \item p(0.2928) = 0.3448
@@ -199,9 +233,11 @@ k=3
     \caption{k=3}
 \end{center}
 
+\noindent
+b.
 
-
-k=5
+\noindent
+with k=5
 \begin{itemize}
     \item p(0.1362) = 1.8278
     \item p(0.2928) = 0.5311
@@ -213,8 +249,13 @@ k=5
 
 \begin{center}
     \includegraphics[scale=1]{3-3b.png}
-    \caption{k=3}
+    \caption{k=5}
 \end{center}
 
+\noindent
+c. 
+
+\noindent
+Increasing the k from 3 to 5 seems to slightly smooth out the graph, while decreasing the amplitude of the probability function. The peaks are still generally in the same places, but are significantly decreased around x=0.5, supposedly because there were enough nearby points to satisfy k=3 easily, but the kNN function had to search much farther for a 5th point.
 
 \end{document}
