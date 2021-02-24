@@ -1,0 +1,82 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx} 
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Homework 4}
+\author{Adam Karl}
+
+\begin{document}
+\maketitle
+
+\section{Exploratory Data Analysis}
+
+\noindent
+a. There is only one binary attribute, named CHAS. It is 1 if the tract touches the Charles River, or 0 otherwise.
+
+\begin{center}
+    \includegraphics[scale=1]{1a.png}
+%    \caption{Subsample size = 25}
+\end{center}
+
+\noindent 
+b. 
+
+\begin{itemize}
+    \item CRIM: -0.3883
+    \item ZN: 0.3604
+    \item INDUS: -0.4837
+    \item CHAS: 0.1753
+    \item NOX: -0.4273
+    \item RM: 0.6954
+    \item AGE: -0.3770
+    \item DIS: 0.2499
+    \item RAD: -0.3816
+    \item TAX: -0.4685
+    \item PTRATIO: -0.5078
+    \item B: 0.3335
+    \item LSTAT: -0.7377
+\end{itemize}
+
+The highest positive correlation is between RM (average number of homes in a dwelling) and average home value with 0.6954. The highest negative correlation is between LSTAT (percentage of lower status population) and home value with -0.7377.
+
+
+\noindent
+c. In my opinion, the scatter plot of XXX vsLSTAT looks the most linear, and shows an obvious negative correlation. However, there does appear to be a slight curve to the trend.
+
+\begin{center}
+    \includegraphics[scale=1]{1c-1.png}
+    \caption{LSTAT vs MEDV}
+\end{center}
+
+
+Depending on interpretation, I'm between DIS vs MEDV and CHAS vs MEDV for the most nonlinear graph. While DIS vs MEDV has the vaguest of positive correlations, practically no information or correlation can be gleaned from CHAS (a binary attribute) vs MEDV.
+
+\begin{center}
+    \includegraphics[scale=1]{1c-2.png}
+    \caption{DIS vs MEDV}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale=1]{1c-3.png}
+    \caption{CHAS vs MEDV}
+\end{center}
+
+\noindent 
+d. The highest correlation is between RAD (index of accessibility to radial highways) and TAX (full-value property-tax rate per \$10,000) with a correlation of 0.9102.
+
+
+
+\end{document}
