@@ -16,7 +16,7 @@ struct timeval finishTime;
 double timeIntervalLength;
 double finalArea;
 
-int NUM_THREADS = 8;
+int NUM_THREADS = 4;
 
 void *parallelCalc(void *threadid) {
 	long tid;
