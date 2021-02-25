@@ -8,7 +8,7 @@
 
 #define		NROW	1024
 #define		NCOL	NROW
-#define NUM_THREADS	8
+#define NUM_THREADS	4
 #define TEST_RESULTS
 
 struct timeval startTime;
