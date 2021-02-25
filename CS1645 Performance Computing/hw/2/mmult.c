@@ -1,9 +1,12 @@
+#include <pthread.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 #include <sys/time.h>
 
 #define		NROW	1024
 #define		NCOL	NROW
+#define		NUM_THREADS	1
 
 
 #define TEST_RESULTS
@@ -21,6 +24,7 @@ int outputArrayC [NROW][NCOL];
 struct timeval startTime;
 struct timeval finishTime;
 double timeIntervalLength;
+
 
 int main(int argc, char* argv[])
 {
@@ -41,45 +45,87 @@ int main(int argc, char* argv[])
 
 	//Get the start time
 	gettimeofday(&startTime, NULL); /* START TIME */
+	//=========================================================
 
-	//W*A + B
-	for(i=0;i<NROW;i++)
-	{
-		for(j=0; j<NCOL; j++)
+
+
+
+	// DECLARE THREADS
+	pthread_t threads[NUM_THREADS];
+	int rc;
+	long t;
+	void *status;
+
+	// CREATE MULTIPLE THREADS
+	for(t=0; t<NUM_THREADS; t++){
+		//printf("In main: creating thread %ld\n", t);
+
+		rc = pthread_create(&threads[t], NULL, NULL, (void *)t);
+
+
+
+		//W*A + B
+		for(i=0;i<NROW;i++)
 		{
-			for(k=0;k<NROW;k++)
+			for(j=0; j<NCOL; j++)
 			{
-				outputArrayC[i][j]+=inputArrayA[i][k]*Weight[k][j];
+				for(k=0;k<NROW;k++)
+				{
+					outputArrayC[i][j]+=inputArrayA[i][k]*Weight[k][j];
+				}
+				outputArrayC[i][j]+=inputArrayB[i][j];
 			}
-			outputArrayC[i][j]+=inputArrayB[i][j];
+		}
+
+		if (rc){
+			printf("ERROR; return code from pthread_create() is %d\n", rc);
+			exit(-1);
 		}
 	}
 
 
+	// JOIN THREADS
+	for(t=0; t<NUM_THREADS; t++) {
+		rc = pthread_join(threads[t], &status);
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	//=========================================================
 	//Get the end time
 	gettimeofday(&finishTime, NULL);  /* END TIME */
 
 
 
 	#ifdef TEST_RESULTS
-		//CALCULATE TOTAL SUM
-		//[Just for verification]
-		totalSum=0;
-		//
-		for(i=0;i<NROW;i++)
+	//CALCULATE TOTAL SUM
+	//[Just for verification]
+	totalSum=0;
+	//
+	for(i=0;i<NROW;i++)
+	{
+		for(j=0;j<NCOL;j++)
 		{
-			for(j=0;j<NCOL;j++)
-			{
-				totalSum+=(double)outputArrayC[i][j];
-			}
+			totalSum+=(double)outputArrayC[i][j];
 		}
+	}
 
-		printf("\nTotal Sum = %g\n",totalSum);
+	printf("\nTotal Sum = %g\n",totalSum);
 	#endif
 
 	//Calculate the interval length
 	timeIntervalLength = (double)(finishTime.tv_sec-startTime.tv_sec) * 1000000
-	                     + (double)(finishTime.tv_usec-startTime.tv_usec);
+	+ (double)(finishTime.tv_usec-startTime.tv_usec);
 	timeIntervalLength=timeIntervalLength/1000;
 
 	//Print the interval length
