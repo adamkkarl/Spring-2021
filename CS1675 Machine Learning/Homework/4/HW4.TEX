@@ -26,11 +26,6 @@
 \noindent
 a. There is only one binary attribute, named CHAS. It is 1 if the tract touches the Charles River, or 0 otherwise.
 
-\begin{center}
-    \includegraphics[scale=1]{1a.png}
-%    \caption{Subsample size = 25}
-\end{center}
-
 \noindent 
 b. 
 
@@ -50,6 +45,7 @@ b.
     \item LSTAT: -0.7377
 \end{itemize}
 
+\noindent
 The highest positive correlation is between RM (average number of homes in a dwelling) and average home value with 0.6954. The highest negative correlation is between LSTAT (percentage of lower status population) and home value with -0.7377.
 
 
@@ -61,7 +57,7 @@ c. In my opinion, the scatter plot of XXX vsLSTAT looks the most linear, and sho
     \caption{LSTAT vs MEDV}
 \end{center}
 
-
+\noindent
 Depending on interpretation, I'm between DIS vs MEDV and CHAS vs MEDV for the most nonlinear graph. While DIS vs MEDV has the vaguest of positive correlations, practically no information or correlation can be gleaned from CHAS (a binary attribute) vs MEDV.
 
 \begin{center}
@@ -77,6 +73,45 @@ Depending on interpretation, I'm between DIS vs MEDV and CHAS vs MEDV for the mo
 \noindent 
 d. The highest correlation is between RAD (index of accessibility to radial highways) and TAX (full-value property-tax rate per \$10,000) with a correlation of 0.9102.
 
+\section{Linear Regression}
+d. Applying the training set model to both the training and testing data, I got a mean squared error of 24.4759 for the training data and 24.2922 for the testing data. It's a bit odd that the model fits the test data better than the data the model is based on, but part of this is likely because the test data has a smaller sample size.
 
+
+\section{Online (stochastic) gradient descent}
+a. Applying the online model after 1000 iterations to both the training and testing data, I got a mean squared error of 312.0710 for the training data and 251.5408 for the testing data. The model still fits the test data better than the training data, but the errors are much higher for both compared to the linear regression offline model.
+
+\noindent
+b. Feeding in the non-normalized data, the model seems to break since my function returns NaN for all of the final values. It would appear this method only works with normalized data.
+
+\noindent
+c. 
+\begin{center}
+    \includegraphics[scale=1]{3c.png}
+    \caption{CHAS vs MEDV}
+\end{center}
+
+\noindent
+d. I first tried adding additional steps. Adding steps keeps decreasing the error, but at a decreasing rate of return.
+
+\begin{center}
+    \includegraphics[scale=1]{3d-1.png}
+    \caption{10,000 steps}
+\end{center}
+
+\noindent
+Then I created a set learning rate. This does allow the error to come down significantly, at the cost of a more unstable error after many iterations.
+
+\begin{center}
+    \includegraphics[scale=1]{3d-2.png}
+    \caption{rate = 0.05}
+\end{center}
+
+\noindent 
+Trying 2/sqrt(n) for the learning rate, on the other hand, makes the error blow up out of control.
+
+\begin{center}
+    \includegraphics[scale=1]{3d-3.png}
+    \caption{rate = 2/sqrt(n)}
+\end{center}
 
 \end{document}
