@@ -23,3 +23,4 @@ for k = 1:1:K                       %%% number of steps
     alpha = 2/sqrt(k);
     W = W + (alpha * sum_err);
 end
+end
