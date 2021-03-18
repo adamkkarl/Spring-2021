@@ -1,0 +1,118 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx} 
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Homework 6}
+\author{Adam Karl}
+
+\begin{document}
+\maketitle
+
+\section{Support Vector Machines}
+
+a.
+\newline\noindent
+weights =     0.0445, 0.0116, -0.0050, 0.0003, -0.0002, 0.0264, 0.3524, 0.0063
+\newline\noindent
+bias = -2.7182
+
+\medskip\noindent
+c.
+\newline\noindent
+training data confusion matrix:
+\begin{table}[htb]
+\begin{tabular}{ll}
+0.5547 & 0.0742 \\
+0.1577 & 0.2134
+\end{tabular}
+\end{table}
+\newline\noindent
+training data misclassification error = 0.2319
+\newline\noindent
+training data sensitivity = 0.7786
+\newline\noindent
+training data specificity = 0.7420
+
+\newline\noindent
+testing data confusion matrix:
+\begin{table}[htb]
+\begin{tabular}{ll}
+0.6201 & 0.0830 \\
+0.1135 & 0.1834
+\end{tabular}
+\end{table}
+\newline\noindent
+testing data misclassification error = 0.1965
+\newline\noindent
+testing data sensitivity = 0.8453
+\newline\noindent
+testing data specificity = 0.6884
+
+\medskip\noindent
+d. The support vector machine model resulted in lower misclassification errors for both the training data (0.2319 < 0.3061) and the testing data (0.1965 < 0.2707). In addition, for the testing data it resulted in both higher sensitivity (0.8453 > 0.7516) and specificity (0.6884 > 0.6765). While the specificities are nearly identical (only a ~1\% difference), it appears as thought the support vector machine model is better than the logistic regression model by every metric.
+
+\section{ROC Analysis}
+
+b.
+\newline\noindent
+Logistic Regression Area Under Curve = 0.7343
+\begin{center}
+    \includegraphics[scale=1]{2b-log.png}
+\end{center}
+
+\newline\noindent
+SVM Area Under Curve = 0.8368
+\begin{center}
+    \includegraphics[scale=1]{2b-svm.png}
+\end{center}
+
+\medskip\noindent
+d. The SVM model results in a ROC that has a higher TP rate than the log-reg model for every FP rate between 0 and 1, which is supported by it having a higher AUC of 0.8368 compared to the log-reg model's AUC of 0.7343. Although there could certainly be better models (the SVM model leaves 16.3\% uncovered compared to a theoretically "perfect" model), the SVM model is definitively the more accurate of the two tested here.
+
+\section{Deep Learning}
+
+b.
+\newline\noindent 
+
+
+\begin{itemize}
+    \item 1 hidden layer, 2 hidden units
+    \begin{itemize}
+        \item training data error:  0.2338
+        \item testing data error: 0.2183
+    \end{itemize}
+    \item 1 hidden layer, 3 hidden units
+    \begin{itemize}
+        \item training data error: 0.2301
+        \item testing data error: 0.2227
+    \end{itemize}
+    \item 1 hidden layer, 5 hidden units
+    \begin{itemize}
+        \item training data error:  0.2393
+        \item testing data error: 0.2052
+    \end{itemize}
+    \item 1 hidden layer, 10 hidden units
+    \begin{itemize}
+        \item training data error:  0.2226
+        \item testing data error: 0.2314
+    \end{itemize}
+\end{itemize}
+
+\medskip\noindent
+The SVM model from part a had a misclassification error of 0.2319 for the training data and 0.1965 for the testing data. Comparing to the deep learning models, the SVM model was only outperformed twice (for 3 and 10 hidden units), and even then only outperformed for the training data. The SVM model had a significantly better testing data error than all 4 deep learning models with 0.1965 while the lowest deep learning error was 0.2052. While no model is objectively the best, it would appear as though the SVM model is better than any of the 4 deep learning models.
+
+
+\end{document}

@@ -26,7 +26,7 @@ y_test=test_data(:,data_col);
 
 %%% builds a one layer neural network (no hidden units) with a sigmoidal output function
 %%% to be trained with the gradient method
-net=patternnet([]);
+net=patternnet([1 10]);
 view(net)
 
 %% sets the parameters of the NN model
