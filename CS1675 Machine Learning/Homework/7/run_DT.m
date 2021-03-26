@@ -7,6 +7,7 @@
 %%%% load the train and test data (both are normalized)
 load pima_train.txt;
 load pima_test.txt;
+load ionosphere;
 tr_data = pima_train;
 test_data = pima_test;
 
@@ -42,7 +43,7 @@ error= sum(abs(y_pred-y_test))/size(y_test,1)
 %%%% new tree with restrictions on the tree size, parent size, and leaf sizes 
 %%%% learns a tree with at most 25 splits, such that any parent node 
 %%%% has at least 10 examples and any leaf has at least 2 examples
-new_tree=fitctree(x,y,'MaxNumSplits',25, 'MinParentSize',10,'MinLeafSize',2,'splitcriterion','gdi');
+new_tree=fitctree(x,y,'splitcriterion','gdi', 'OptimizeHyperparameters', 'all');
 %%% show the tree logic
 view(new_tree);
 %%% show the graphics of the tree
