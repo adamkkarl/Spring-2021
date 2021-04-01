@@ -1,0 +1,89 @@
+\documentclass{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx} 
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{HW 8}
+\author{Adam Karl}
+
+\begin{document}
+
+\maketitle
+
+\section{Bayesian Belief Networks}
+a. $P(B=T,E=T)=$
+\[\sum_{a\epsilon T,F}\sum_{d\epsilon T,F,X}\sum_{c\epsilon T,F}\sum_{f\epsilon T,F} P(A=a) P(B=T) P(C=c) P(D=d|A=a,B=T,C=c) P(E=T|C=c) P(F=f|D=d) \]
+
+\noindent
+There are 4 binary variables and 1 tertiary variable, so the number of parameters for the full joint is $2^4(3^1)=48$. There are 23 addends and 120 multiplicands for this calculation.
+
+\noindent 
+b. We can group together the variables that depend on each other.
+
+\[\sum_{f\epsilon T,F}P(F=f|D=d)\sum_{d\epsilon T,F,X} P(D=d|A=a,B=T,C=c) P(B=T) \]
+
+\[[\sum_{a\epsilon T,F}P(A=a)] P(E=T|C=c)[\sum_{c\epsilon T,F}P(C=c)]\]
+
+\noindent 
+This leaves us with 25 addends and 8 multiplicands, which is more efficient for addition but less efficient for multiplication.
+
+\section{Pneumonia Diagnosis}
+
+a.
+\begin{itemize}
+    \item pneumonia = unknown
+    \begin{itemize}
+        \item P(fever) = 0.606
+        \item P(paleness) = 0.504
+        \item P(cough) = 0.116
+        \item P(highWBcount) = 0.506
+        \item P(pneumonia) = 0.02
+    \end{itemize}
+    \item pneumonia = true
+    \begin{itemize}
+        \item P(fever) = 0.9
+        \item P(paleness) = 0.7
+        \item P(cough) = 0.9
+        \item P(highWBcount) = 0.8
+    \end{itemize}
+    \item pneumonia = false
+    \begin{itemize}
+        \item P(fever) = 0.6
+        \item P(paleness) = 0.5
+        \item P(cough) = 0.1
+        \item P(highWBcount) = 0.5
+    \end{itemize}
+\end{itemize}
+
+\noindent
+b. 
+\[\frac{P(fever=T|pneu=T)P(paleness=F|pneu=T)P(cough=T|pneu=T)P(highWBcount=F|pneu=T)P(pneu=t) }{P(fever=T)P(paleness=F)P(cough=T)P(highWBcount=F)}\]
+
+\[\frac{0.9(0.3)(0.9)(0.2)(0.02) }{0.606(0.496)(0.116)(0.494)} = 0.0564\]
+
+\noindent
+Therefore, there is a 5.64\% chance the patient has pneumonia.
+
+\noindent 
+c. 
+\[\frac{P(fever=T|pneu=T)P(cough=T|pneu=T)P(pneu=t) }{P(fever=T)P(cough=T)}\]
+\[\frac{0.9(0.9)(0.02) }{(0.606)(0.116)} = 0.2304\]
+
+\noindent
+Therefore, there is a 23.04\% chance the patient has pneumonia.
+
+
+\end{document}
+
