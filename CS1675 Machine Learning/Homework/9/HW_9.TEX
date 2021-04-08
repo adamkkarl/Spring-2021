@@ -1,0 +1,170 @@
+\documentclass{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx} 
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{HW 9}
+\author{Adam Karl}
+
+\begin{document}
+
+\maketitle
+
+\section{K-means clustering}
+
+\noindent
+a. 
+\begin{itemize}
+    \item cluster 1
+    \begin{itemize}
+        \item 66 elements
+        \item center: (3.94, 4.04)
+    \end{itemize}
+    \item cluster 2
+    \begin{itemize}
+        \item 98 elements
+        \item center: (0.86, 2.03)
+    \end{itemize}
+    \item cluster 3
+    \begin{itemize}
+        \item 36 elements
+        \item center: (2.94. -4.97)
+    \end{itemize}
+\end{itemize}
+
+\begin{center}
+    \includegraphics[scale=1]{1a.png}
+\end{center}
+
+
+\noindent
+b. 
+\begin{itemize}
+    \item cluster 1
+    \begin{itemize}
+        \item 99 elements
+        \item center: (0.86, 2.03)
+    \end{itemize}
+    \item cluster 2
+    \begin{itemize}
+        \item 18 elements
+        \item center:  (2.47, -4.29)
+    \end{itemize}
+    \item cluster 3
+    \begin{itemize}
+        \item 66 elements
+        \item center: (3.94, 4.04)
+    \end{itemize}
+    \item cluster 4
+    \begin{itemize}
+        \item 18 elements
+        \item center: (3.42, -5.65)
+    \end{itemize}
+\end{itemize}
+
+\begin{center}
+    \includegraphics[scale=1]{1b.png}
+\end{center}
+
+
+\noindent
+c.
+
+\begin{itemize}
+    \item cluster 1
+    \begin{itemize}
+        \item 36 elements
+        \item (2.94, -4.97)
+    \end{itemize}
+    \item cluster 2
+    \begin{itemize}
+        \item 61 elements
+        \item (4.09, 4.07)
+    \end{itemize}
+    \item cluster 3
+    \begin{itemize}
+        \item 42 elements
+        \item (1.29, 3.00)
+    \end{itemize}
+    \item cluster 4
+    \begin{itemize}
+        \item 61 elements
+        \item (0.67, 1.50)
+    \end{itemize}
+\end{itemize}
+
+\begin{center}
+    \includegraphics[scale=1]{1c.png}
+\end{center}
+
+\noindent
+d. The k-means algorithm seeks to minimize the sum of the squared distances from every data point to its respective center. Thus, we can compare the kmeans models by looking for the one with the lower value of: 
+
+\[ \sum_{i=1}^{k} \sum_{x_j\epsilon S_i} ||x_j-u_i||^2 \]
+
+\noindent
+Where $u_i$ is the respective center of cluster $S_i$.
+
+\noindent 
+e. Here are the cluster sizes for each of the 30 trials:
+
+\begin{center}
+    \includegraphics[scale=0.75]{1e-2.png}
+\end{center}
+
+\noindent 
+The best model resulted in a total squared distance of 281.9, and clusters of sizes 40, 36, 63, and 61.
+
+\begin{center}
+    \includegraphics[scale=1]{1e.png}
+    \caption{Best model}
+\end{center}
+
+\section{Hierarchical clustering}
+
+a.
+
+\begin{center}
+    \includegraphics[scale=0.75]{2a.png}
+\end{center}
+
+\noindent 
+b. Using the hierarchical model to split the data into 4 groups, the clusters look like: 
+
+\begin{center}
+    \includegraphics[scale=1]{2b.png}
+\end{center}
+
+This appears to be practically identical to the best model using the k-means approach.
+
+\section{Feature/Input Ranking}
+
+a. The top 20 dimensions according to their Fisher scores are as follows: 
+
+\begin{center}
+    \includegraphics[scale=0.75]{3a.png}
+\end{center}
+
+b. The top 20 dimensions according to their AUROC scores are as follows: 
+
+\begin{center}
+    \includegraphics[scale=0.75]{3b.png}
+\end{center}
+
+\noindent
+Although there are some similarities (for instance dimensions 25 and 29 rank highly for both), the AUROC rankings are drastically different from the Fisher score rankings. Generally this is as expected: some similarities for the most/least important factors in classification, but different since the Fisher scores and AUROC scores go about the ranking in wildly different manners.
+
+\end{document}
+
