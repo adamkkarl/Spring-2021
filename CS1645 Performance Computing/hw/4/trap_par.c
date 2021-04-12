@@ -23,15 +23,22 @@ int main( int argc, char *argv[]){
   char processor_name[MPI_MAX_PROCESSOR_NAME];
   int name_len;
   MPI_Get_processor_name(processor_name, &name_len);
+  MPI_Status sts;
 
 
 
   //
   //I N I T I A L I Z A T I O N S
   //
-  area = 0.0;
+  double partial_area = 0.0;
+  double final_area = 0.0;
+  double f_result;
+
   struct timeval startTime;
   struct timeval finishTime;
+  double timeIntervalLength;
+
+  double p_current;
 
 
   //Get the start time
@@ -54,7 +61,7 @@ int main( int argc, char *argv[]){
   //very first height only added once
   if(rank==0) {
     f_result = cos(start);
-    area -= f_result*h/2;
+    partial_area -= f_result*h/2;
   }
 
   //add each height twice
@@ -62,27 +69,28 @@ int main( int argc, char *argv[]){
   {
     p_current = start + i*h;
     f_result = cos(p_current);
-    area += f_result*h; //2*f_result*h/2 == f_result*h
+    partial_area += f_result*h; //2*f_result*h/2 == f_result*h
     p_current += h;
   }
 
   //very last height only added once
   if(rank==size-1) {
     f_result = cos(end);
-    area -= f_result*h/2;
+    partial_area -= f_result*h/2;
   }
 
 
   // COMBINE AREAS
   if(rank == 0) {
+    final_area = partial_area;
 
-    for (i = 1; i < size; i++) {
+    for (int i = 1; i < size; i++) {
       MPI_Recv(&partial_area, 1, MPI_DOUBLE, i, 0, MPI_COMM_WORLD, &sts);
-      area += partial_area;
+      final_area += partial_area;
     }
 
   } else {
-    MPI_Send(&area, 1, MPI_DOUBLE, 0, 0, MPI_COMM_WORLD);
+    MPI_Send(&partial_area, 1, MPI_DOUBLE, 0, 0, MPI_COMM_WORLD);
   }
 
   //=================================================================
@@ -92,7 +100,7 @@ int main( int argc, char *argv[]){
     gettimeofday(&finishTime, NULL);
 
     //print solution
-    printf("Result : %.2lf \n",area);
+    printf("Result : %.2lf \n", final_area);
 
     //Calculate the interval length
     timeIntervalLength = (double)(finishTime.tv_sec-startTime.tv_sec) * 1000000
