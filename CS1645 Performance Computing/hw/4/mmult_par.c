@@ -91,7 +91,6 @@ int main( int argc, char *argv[]){
 
   // COMBINE SOLUTIONS
   if(rank == 0) {
-    int received;
 
     for (int i = 1; i < size; i++) {
 
