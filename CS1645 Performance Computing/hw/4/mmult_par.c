@@ -6,14 +6,11 @@
 #include <sys/time.h>
 #include <mpi.h>
 
-#define		NSTEPS	8388600
-#define		NITER 	8388600
-#define		P_START	0
-#define		P_END	10
+#define		NROW   700
+#define   NCOL    NROW
+
 
 int main( int argc, char *argv[]){
-
-
   int rank, size;
 
   MPI_Init (&argc, &argv);	/* starts MPI */
@@ -24,7 +21,6 @@ int main( int argc, char *argv[]){
   int name_len;
   MPI_Get_processor_name(processor_name, &name_len);
   MPI_Status sts;
-
 
 
   //
@@ -43,20 +39,8 @@ int main( int argc, char *argv[]){
   struct timeval finishTime;
   double timeIntervalLength;
 
-  //Get the start time
-  if(rank == 0) {
-    gettimeofday(&startTime, NULL);
-  }
+
   //=================================================================
-
-  // DETERMINE REGION THIS PROCESS WILL CALCULATE
-
-  int chunk_size = NSTEPS/size;
-  double h = (double)(P_END-P_START)/NSTEPS;
-
-  double start = (double) (P_END-P_START)*rank/size;
-  double end = (double) (P_END-P_START)*(rank+1)/size;
-
 
   // BUILD MATRICES FOR EVERY PROCESS
 
@@ -75,6 +59,12 @@ int main( int argc, char *argv[]){
       outputArrayC[i][j]= 0;
     }
   }
+
+  //Get the start time
+  if(rank == 0) {
+    gettimeofday(&startTime, NULL);
+  }
+
 
   // DETERMINE CHUNKS FOR THIS PROCESS TO CALCULATE
 
@@ -109,27 +99,14 @@ int main( int argc, char *argv[]){
       start_row = chunk_rows * i;
       end_row = start_row + chunk_rows;
 
-      // receive all calculated values
-      for(int row=start_row; row<end_row; row++)
-      {
-        for(int col=0; col<NCOL; col++)
-        {
-          MPI_Recv(&received, 1, MPI_INT, i, 0, MPI_COMM_WORLD, &sts);
-          outputArrayC[row][col] = received;
-        }
-      }
+      int num_elements = (end_row-start_row) * NCOL;
+      MPI_Recv(&outputArrayC[start_row][0], num_elements, MPI_INT, i, 0, MPI_COMM_WORLD, &sts);
 
     }
-
   } else {
-    // send all calculated values back to main process
-    for(int row=start_row; row<end_row; row++)
-    {
-      for(int col=0; col<NCOL; col++)
-      {
-        MPI_Send(&outputArrayC[row][col], 1, MPI_INT, 0, 0, MPI_COMM_WORLD);
-      }
-    }
+    // send all calculated values back to
+    int num_elements = (end_row-start_row) * NCOL;
+    MPI_Send(&outputArrayC[start_row][0], num_elements, MPI_INT, 0, 0, MPI_COMM_WORLD);
   }
 
   //=================================================================
@@ -139,11 +116,10 @@ int main( int argc, char *argv[]){
     gettimeofday(&finishTime, NULL);
 
 
-    #ifdef TEST_RESULTS
     //CALCULATE TOTAL SUM
     //[Just for verification]
     totalSum=0;
-    //
+
     for(i=0;i<NROW;i++)
     {
       for(j=0;j<NCOL;j++)
@@ -151,9 +127,7 @@ int main( int argc, char *argv[]){
         totalSum+=(double)outputArrayC[i][j];
       }
     }
-
     printf("\nTotal Sum = %g\n",totalSum);
-    #endif
 
     //Calculate the interval length
     timeIntervalLength = (double)(finishTime.tv_sec-startTime.tv_sec) * 1000000

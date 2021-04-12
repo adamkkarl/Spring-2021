@@ -2,7 +2,7 @@
 #include <time.h>
 #include <sys/time.h>
 
-#define		NROW	1024
+#define		NROW	700
 #define		NCOL	NROW
 
 
