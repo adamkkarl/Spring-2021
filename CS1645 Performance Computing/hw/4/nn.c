@@ -5,7 +5,7 @@
 #include <sys/time.h>
 
 
-#define		NROW	1024
+#define		NROW	700
 #define		NCOL	NROW
 #define TEST_RESULTS
 
@@ -30,6 +30,9 @@ double val_sum;
 
 int main(int argc, char* argv[])
 {
+	//Get the start time
+	gettimeofday(&startTime, NULL); /* START TIME */
+
 	int i,j,k;
 	//INITIALIZE ARRAYS
 	for(i=0;i<NROW;i++)
@@ -44,8 +47,7 @@ int main(int argc, char* argv[])
 	}
 	total_sum = 0;
 
-	//Get the start time
-	gettimeofday(&startTime, NULL); /* START TIME */
+
 	//Y = RELU(AVE(XW))
 	for (i =0; i < NROW; i++)
 	{

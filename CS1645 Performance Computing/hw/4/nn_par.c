@@ -4,39 +4,10 @@
 #include <time.h>
 #include <math.h>
 #include <sys/time.h>
+#include <mpi.h>
 
-
-#define		NROW	1024
+#define		NROW	700
 #define		NCOL	NROW
-#define NUM_THREADS	4
-#define TEST_RESULTS
-
-
-
-
-void *parallelCalc(void *threadid) {
-	long tid;
-	tid = (long)threadid;
-
-	int chunk_rows = NROW/NUM_THREADS;
-
-	//Y = RELU(AVE(XW))
-	for (int i=0; i<NROW; i+=NUM_THREADS)
-	{
-		for(int j=0; j<NCOL; j++)
-		{
-			for(int k=0; k<NCOL; k++)
-			{
-				outputY[i]+=inputArrayX[i][k]*Weight[k][j];
-				// printf("%g\n",outputY[i]);
-			}
-			outputY[i] /= NCOL;
-		}
-		if (outputY[i] < 0){outputY[i] = 0;}
-	}
-
-
-}
 
 int main(int argc, char* argv[])
 {
@@ -79,9 +50,6 @@ int main(int argc, char* argv[])
 		gettimeofday(&startTime, NULL);
 	}
 
-
-
-
 	int i,j,k;
 	//INITIALIZE ARRAYS
 	for(i=0;i<NROW;i++)
@@ -95,8 +63,6 @@ int main(int argc, char* argv[])
 		}
 	}
 	total_sum = 0;
-
-
 
 	// DETERMINE CHUNKS FOR THIS PROCESS TO CALCULATE
 	int chunk_rows = NROW/size;
@@ -117,73 +83,67 @@ int main(int argc, char* argv[])
 		if (outputY[i] < 0){outputY[i] = 0;}
 	}
 
-
-
-
 	// COMBINE SOLUTIONS
 	if(rank == 0) {
 
 		for (int i = 1; i < size; i++) {
 			double buffer[NROW];
 
-
-			int num_elements = (end_row-start_row) * NCOL;
 			MPI_Recv(&buffer[0], NROW, MPI_DOUBLE, i, 0, MPI_COMM_WORLD, &sts);
 			for(int i=0; i<NROW; i++) {
 				outputY[i] += buffer[i];
-
 			}
-		} else {
-			// send all calculated values back to main thread
-			MPI_Send(&outputY[0], NROW, MPI_DOUBLE, 0, 0, MPI_COMM_WORLD);
 		}
-
-
-
-		//=====================================================================
-
-
-
-		if(rank == 0) {
-			// CALCULATE SOFTMAX
-			//Y = SOFTMAX(Y)
-			//Loss = Ground - Y
-			for (int i =0; i < NROW; i++){
-				outputY[i] = exp(outputY[i]);
-				total_sum += outputY[i];
-			}
-			//
-			for (int i =0; i < NROW; i++){
-				outputY[i] /= total_sum;
-				Loss[i] = outputY[i] - Ground[i];
-			}
-
-
-
-
-			//Get the end time
-			gettimeofday(&finishTime, NULL);
-
-			//CALCULATE TOTAL SUM
-			//[Just for verification]
-			val_sum=0;
-			for(i=0;i<NROW;i++) {
-				val_sum+=(double)Loss[i];
-			}
-
-			printf("\nTotal Sum = %g\n",val_sum);
-
-
-			//Calculate the interval length
-			timeIntervalLength = (double)(finishTime.tv_sec-startTime.tv_sec) * 1000000
-			+ (double)(finishTime.tv_usec-startTime.tv_usec);
-			timeIntervalLength=timeIntervalLength/1000;
-
-			//Print the interval lenght
-			printf("Interval length: %g msec.\n", timeIntervalLength);
-
-		}
-
-		MPI_Finalize();
-		return 0;
+	} else {
+		// send all calculated values back to main thread
+		MPI_Send(&outputY[0], NROW, MPI_DOUBLE, 0, 0, MPI_COMM_WORLD);
 	}
+
+
+	//=====================================================================
+
+
+
+	if(rank == 0) {
+		// CALCULATE SOFTMAX
+		//Y = SOFTMAX(Y)
+		//Loss = Ground - Y
+		for (int i =0; i < NROW; i++){
+			outputY[i] = exp(outputY[i]);
+			total_sum += outputY[i];
+		}
+		//
+		for (int i =0; i < NROW; i++){
+			outputY[i] /= total_sum;
+			Loss[i] = outputY[i] - Ground[i];
+		}
+
+
+
+
+		//Get the end time
+		gettimeofday(&finishTime, NULL);
+
+		//CALCULATE TOTAL SUM
+		//[Just for verification]
+		val_sum=0;
+		for(i=0;i<NROW;i++) {
+			val_sum+=(double)Loss[i];
+		}
+
+		printf("\nTotal Sum = %g\n",val_sum);
+
+
+		//Calculate the interval length
+		timeIntervalLength = (double)(finishTime.tv_sec-startTime.tv_sec) * 1000000
+		+ (double)(finishTime.tv_usec-startTime.tv_usec);
+		timeIntervalLength=timeIntervalLength/1000;
+
+		//Print the interval lenght
+		printf("Interval length: %g msec.\n", timeIntervalLength);
+
+	}
+
+	MPI_Finalize();
+	return 0;
+}
