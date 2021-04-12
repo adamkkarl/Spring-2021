@@ -12,8 +12,6 @@
 #define		P_END	10
 
 int main( int argc, char *argv[]){
-
-
   int rank, size;
 
   MPI_Init (&argc, &argv);	/* starts MPI */
@@ -24,8 +22,6 @@ int main( int argc, char *argv[]){
   int name_len;
   MPI_Get_processor_name(processor_name, &name_len);
   MPI_Status sts;
-
-
 
   //
   //I N I T I A L I Z A T I O N S
@@ -111,13 +107,7 @@ int main( int argc, char *argv[]){
     printf("Interval length: %g msec.\n", timeIntervalLength);
   }
 
-
   MPI_Finalize();
 
-
   return 0;
-
-
-
-
 }
