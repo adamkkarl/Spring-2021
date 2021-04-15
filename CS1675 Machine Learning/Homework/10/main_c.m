@@ -1,8 +1,8 @@
-function [train_E, test_E] = main_b(tr_x, tr_y, test_x, test_y)
+function [train_E, test_E] = main_c(tr_x, tr_y, test_x, test_y)
     sum_train_E = 0;
     sum_test_E = 0;
     for i=1:20
-        [pred_y, E] = Boost_classifier(tr_x,tr_y,test_x,'[@DT_base_full,7,[]]');
+        [pred_y, E] = Bag_classifier(tr_x,tr_y,test_x,'[@DT_base_simple,10,[]]');
         
         %error for training data
         sum_train_E = sum_train_E + E;
