@@ -1,4 +1,4 @@
-#include <pthread.h>
+#include <omp.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -53,6 +53,8 @@ int main(int argc, char* argv[])
 {
 	int i,j,k;
 	double totalSum;
+	
+	
 
 	//INITIALIZE ARRAYS
 	for(i=0;i<NROW;i++)
@@ -68,56 +70,27 @@ int main(int argc, char* argv[])
 
 	//Get the start time
 	gettimeofday(&startTime, NULL); /* START TIME */
+	
 	//=========================================================
 
 
 
+	/* Fork a team of threads giving them their own copies of variables */
+	#pragma omp parallel private(nthreads, tid) {
+		/* Obtain thread number */
+		int tid = omp_get_thread_num();
+		int nthreads = omp_get_num_threads();
 
-	// DECLARE THREADS
-	pthread_t threads[NUM_THREADS];
-	int rc;
-	long t;
-	void *status;
-
-
-	//W*A + B
-//	for(i=0;i<NROW;i++)
-//	{
-//		for(j=0; j<NCOL; j++)
-//		{
-//			for(k=0;k<NROW;k++)
-//			{
-//				outputArrayC[i][j]+=inputArrayA[i][k]*Weight[k][j];
-//			}
-
-
-
-			// CREATE MULTIPLE THREADS
-			for(t=0; t<NUM_THREADS; t++){
-				//printf("In main: creating thread %ld\n", t);
-
-				rc = pthread_create(&threads[t], NULL, parallelCalc, (void *)t);
-
-				if (rc){
-					printf("ERROR; return code from pthread_create() is %d\n", rc);
-					exit(-1);
-				}
-			}
-
-
-
-
-//			outputArrayC[i][j]+=inputArrayB[i][j];
-//		}
-//	}
-
-
-
-
-	// JOIN THREADS
-	for(t=0; t<NUM_THREADS; t++) {
-		rc = pthread_join(threads[t], &status);
-	}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}  /* All threads join master thread and disband */
 
 	//=========================================================
 	//Get the end time
