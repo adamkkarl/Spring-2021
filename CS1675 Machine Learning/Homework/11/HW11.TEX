@@ -1,0 +1,94 @@
+\documentclass{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx} 
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{HW 10}
+\author{Adam Karl}
+
+\begin{document}
+
+\maketitle
+
+\section{Reinforcement Learning Agent}
+
+b.
+
+\noindent 
+c.
+
+15000 steps
+\begin{itemize}
+    \item 30.9
+    \item 31.2
+    \item 31.4
+    \item 32.4
+\end{itemize}
+
+\begin{center}
+    \includegraphics[scale=1]{1c.png}
+\end{center}
+
+
+200000 steps
+\begin{itemize}
+    \item 32.1
+    \item 32.5
+    \item 32.8
+    \item 33.6
+\end{itemize}
+
+\begin{center}
+    \includegraphics[scale=1]{1c-2.png}
+\end{center}
+
+\noindent
+d. 
+policy=3,1,1,1
+
+15000 steps
+\begin{itemize}
+    \item 35.3
+    \item 35.4
+    \item 35.4
+    \item 39.4
+\end{itemize}
+
+\begin{center}
+    \includegraphics[scale=1]{1d.png}
+\end{center}
+
+\noindent 
+e. 
+
+\noindent
+At the end of 15000 steps, my final results for Q were:
+\begin{table}[htb]
+\begin{tabular}{lllll}
+       &   & \multicolumn{3}{c}{action} \\
+       &   & 1       & 2       & 3      \\
+       & 1 & 38.72   & 38.81   & 39.03  \\
+policy & 2 & 39.22   & 38.93   & 38.57  \\
+       & 3 & 39.03   & 39.20   & 40.21  \\
+       & 4 & 42.31   & 40.24   & 38.63 
+\end{tabular}
+\end{table}
+
+\noindent 
+Finding the maximum for each row, we get the policy of $[3,1,3,1]^T$ with policy values of $[39.03,39.22,40.21,42.31]^T$. These policy values are the highest we've yet observed, indicating that this is the best policy we've found.
+
+
+\end{document}
+

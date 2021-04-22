@@ -1,4 +1,4 @@
-function [Q] = Q_learning
+function Q_learning
 
 RL_init_model();
 state = 0;
@@ -6,24 +6,18 @@ state = 0;
 action = 0;
 step = 0;
 gamma = 0.95;
-V_pi = [0,0,0,0];
-V_pi_hist = [];
 
 n_sa =[0,0,0; 0,0,0; 0,0,0; 0,0,0];
 Q    =[0,0,0; 0,0,0; 0,0,0; 0,0,0];
 
-for i=1:150000
-    if mod(step, 100) == 0
-        %record V_pi
-        V_pi_hist = [V_pi_hist; step, V_pi];
-    end
+for i=1:15000
     if mod(step, 200) == 0
         state = RL_reset_environment(model);
     end
     
     %choose action
     p = [0.2, 0.2, 0.2];
-    max_action = find(Q(state,:) == Q(state,:), 1);
+    max_action = find(Q(state,:) == max(Q(state,:)), 1);
     p(max_action) = 0.6;
     disp("===");
     disp(p);
@@ -45,7 +39,16 @@ for i=1:150000
     state = new_state;
     step = step+1;
 end
-    %V_pi_hist = [V_pi_hist; step, V_pi];
+    V = max(Q,[],2);
+    pi = [];
+    for i=1:size(Q,1)
+        pi = [pi, find(Q(i,:)==V(i,1), 1)];
+    end
+
+    disp("Q");
     disp(Q);
-    disp(n_sa);
+    disp("policy");
+    disp(pi);
+    disp("V");
+    disp(V);
 end
