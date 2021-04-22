@@ -1,7 +1,6 @@
 function main_1b
 
 hist = [];
-
 RL_init_model();
 state = RL_reset_environment(model);
 action = 0;
@@ -16,15 +15,13 @@ for i=1:10
     elseif state == 4
         action = 2;
     end
-    [new_state reward] = RL_simulate_one_step(state, action, model);
+    [new_state, reward] = RL_simulate_one_step(state, action, model);
     
-    hist = [hist; state action reward];
+    hist = [hist; state, action, reward];
     
     state = new_state;
 end
-    
     disp("   state action reward");
     disp(hist);
-
+    disp(state);
 end
-
