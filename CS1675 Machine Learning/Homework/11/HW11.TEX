@@ -91,6 +91,244 @@ policy & 2 & 39.22   & 38.93   & 38.57  \\
 \noindent 
 Finding the maximum for each row, we get the policy of $[3,1,3,1]^T$ with policy values of $[39.03,39.22,40.21,42.31]^T$. These policy values are the highest we've yet observed, indicating that this is the best policy we've found.
 
+\section{Eigenfaces}
+
+a.
+
+S = [440,115,355,124,295,171,19,103,63]
+
+\begin{center}
+    \includegraphics[scale=1]{S.png}
+    \caption{Original Images}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale=1]{S5.png}
+    \caption{m=5}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale=1]{S20.png}
+    \caption{m=20}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale=1]{S50.png}
+    \caption{m=50}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{S100.png}
+    \caption{m=100}
+\end{center}
+
+Honestly every reconstruction above m=5 seems to be pretty decent. There are significant changes to m=5 especially around the mouth. While there is an increase in detail between m=20 and m=50, all the minute facial expressions seem to be intact. I'm unable to notice any significant difference between m=50 and m=100. 
+
+
+\section{Image 440}
+
+\begin{table}[htb]
+\begin{tabular}{ll}
+Original Image & Original Reconstructed   \\
+Best Match     & Best Match Reconstructed
+\end{tabular}
+\end{table}
+
+\begin{center}
+    \includegraphics[scale1]{440-5.png}
+    \caption{m=5, 440$\rightarrow$441}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{440-20.png}
+    \caption{m=20, 440$\rightarrow$441}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{440-50.png}
+    \caption{m=50, 440$\rightarrow$441}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{440-100.png}
+    \caption{m=100, 440$\rightarrow$441}
+\end{center}
+
+\section{Image 115}
+
+\begin{center}
+    \includegraphics[scale1]{115-5.png}
+    \caption{m=5, 115$\rightarrow$25}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{115-20.png}
+    \caption{m=20, 115$\rightarrow$25}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{115-50.png}
+    \caption{m=50, 115$\rightarrow$113}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{115-100.png}
+    \caption{m=100, 115$\rightarrow$113}
+\end{center}
+
+\section{Image 355}
+
+\begin{center}
+    \includegraphics[scale1]{355-5.png}
+    \caption{m=5, 355$\rightarrow$89}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{355-20.png}
+    \caption{m=20, 355$\rightarrow$353}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{355-50.png}
+    \caption{m=50, 355$\rightarrow$353}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{355-100.png}
+    \caption{m=100, 355$\rightarrow$353}
+\end{center}
+
+\section{Image 124}
+
+\begin{center}
+    \includegraphics[scale1]{124-5.png}
+    \caption{m=5, 124$\rightarrow$433}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{124-20.png}
+    \caption{m=20, 124$\rightarrow$123}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{124-50.png}
+    \caption{m=50, 124$\rightarrow$123}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{124-100.png}
+    \caption{m=100, 124$\rightarrow$123}
+\end{center}
+
+\section{Image 295}
+
+\begin{center}
+    \includegraphics[scale1]{295-5.png}
+    \caption{m=5, 295$\rightarrow$72}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{295-20.png}
+    \caption{m=20, 295$\rightarrow$161}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{295-50.png}
+    \caption{m=50, 295$\rightarrow$293}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{295-100.png}
+    \caption{m=100, 295$\rightarrow$293}
+\end{center}
+
+\section{Image 171}
+
+\begin{center}
+    \includegraphics[scale1]{171-5.png}
+    \caption{m=5, 171$\rightarrow$303}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{171-20.png}
+    \caption{m=20, 171$\rightarrow$303}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{171-50.png}
+    \caption{m=50, 171$\rightarrow$170}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{171-100.png}
+    \caption{m=100, 171$\rightarrow$170}
+\end{center}
+
+\section{Image 19}
+
+\begin{center}
+    \includegraphics[scale1]{19-5.png}
+    \caption{m=5, 19$\rightarrow$109}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{19-20.png}
+    \caption{m=20, 19$\rightarrow$24}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{19-50.png}
+    \caption{m=50, 19$\rightarrow$24}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{19-100.png}
+    \caption{m=100, 19$\rightarrow$24}
+\end{center}
+
+\section{Image 103}
+
+\begin{center}
+    \includegraphics[scale1]{103-5.png}
+    \caption{m=5, 103$\rightarrow$12}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{103-20.png}
+    \caption{m=20, 103$\rightarrow$12}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{103-50.png}
+    \caption{m=50, 103$\rightarrow$12}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{103-100.png}
+    \caption{m=100, 103$\rightarrow$12}
+\end{center}
+
+\section{Image 103}
+
+\begin{center}
+    \includegraphics[scale1]{63-5.png}
+    \caption{m=5, 63$\rightarrow$412}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{63-20.png}
+    \caption{m=20, 63$\rightarrow$64}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{63-50.png}
+    \caption{m=50, 63$\rightarrow$64}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale1]{63-100.png}
+    \caption{m=100, 63$\rightarrow$64}
+\end{center}
 
 \end{document}
 
