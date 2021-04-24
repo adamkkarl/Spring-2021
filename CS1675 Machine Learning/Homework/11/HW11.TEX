@@ -15,7 +15,7 @@
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
 
-\title{HW 10}
+\title{HW 11}
 \author{Adam Karl}
 
 \begin{document}
@@ -70,8 +70,10 @@ I tried a policy of $[3,1,1,1]^T$, and after 15000 steps the calculated policy v
     \includegraphics[scale=1]{1d.png}
 \end{center}
 
+\noindent
 Since these policy values are higher than the ones from 1c, we have significant evidence that the policy $[3,1,1,1]^T$ is better than $[1,1,3,2]^T$.
 
+\medskip
 \noindent 
 e. 
 
@@ -91,7 +93,7 @@ policy & 2 & 39.22   & 38.93   & 38.57  \\
 \noindent 
 Finding the maximum for each row, we get the policy of $[3,1,3,1]^T$ with policy values of $[39.03,39.22,40.21,42.31]^T$. These policy values are the highest we've yet observed, indicating that this is the best policy we've found.
 
-\section{Eigenfaces}
+\section{Task 1: Eigenfaces}
 
 a.
 
@@ -308,7 +310,7 @@ Best Match     & Best Match Reconstructed
     \caption{m=100, 103$\rightarrow$12}
 \end{center}
 
-\section{Image 103}
+\section{Image 63}
 
 \begin{center}
     \includegraphics[scale1]{63-5.png}
@@ -330,5 +332,105 @@ Best Match     & Best Match Reconstructed
     \caption{m=100, 63$\rightarrow$64}
 \end{center}
 
-\end{document}
+\section{Eigenfaces: Task 2 Analysis}
 
+\begin{itemize}
+    \item image 440
+    \begin{itemize}
+        \item matched with image 441 for all m
+    \end{itemize}
+    \item image 115
+    \begin{itemize}
+        \item matched with image 25 for m = 5, 20
+        \item matched with image 113 for m = 50, 100
+    \end{itemize}
+    \item image 355
+    \begin{itemize}
+        \item matched with image 89 for m = 5
+        \item matched with image 353 for m = 20, 50, 100
+    \end{itemize}
+    \item image 124
+    \begin{itemize}
+        \item matched with image 433 for m = 5
+        \item matched with image 123 for m = 20, 50, 100
+    \end{itemize}
+    \item image 295
+    \begin{itemize}
+        \item matched with image 71 for m = 5
+        \item matched with image 161 for m = 20
+        \item matched with image 293 for m = 50, 100
+    \end{itemize}
+    \item image 171
+    \begin{itemize}
+        \item matched with image 303 for m = 5, 20
+        \item matched with image 170 for m = 50, 100
+    \end{itemize}
+    \item image 19
+    \begin{itemize}
+        \item matched with image 109 for m = 5
+        \item matched with image 24 for m = 20, 50, 100
+    \end{itemize}
+    \item image 103
+    \begin{itemize}
+        \item matched with image 12 for all m
+    \end{itemize}
+    \item image 63
+    \begin{itemize}
+        \item matched with image 412 for m = 5
+        \item matched with image 64 for m = 20, 50, 100
+    \end{itemize}
+\end{itemize}
+
+Of the 9 images I looked at, the only one that did not eventually match with the same subject was image 103, which matched with image 12 for all values of m. At m=5, 1/9 images matched with the correct subject. At m=20, 5/9 images matched with the correct subject. At m=50 and m=100, 8/9 images matched with the correct subject. At m=20, 5/9 images matched with the correct subject.
+
+With the exception of image 103, all other images matched up with the correct subject at m=50, while just over half did so at m=20. The matching obviously improves as m increases, but sees diminishing returns (if any) after m=50.
+
+\section{Task 3: knn}
+
+In order to understand the nearest-neighbors algorithm, I imagine all the elements in the training data plotted in n-dimensional (or in the case of this problem, m-dimensional space). Then, to determine the class of a new element, calculate the euclidean distances from it to each training element and predict it will have the same class as the element that's the smallest Euclidean distance away. Essentially, the new element will be predicted to have \emph{the same class as the closest known element}.
+
+However, the nearest-neighbor classifier has a significant weakness: it is extremely vulnerable to outliers in the training data skewing the results. For example, imagine the training data has two classes A and B. All the elements of A are tightly packed within 1 unit of each other. 5 units away, all units of B are packed in a similarly tight configuration, except for a single element of B that exists in the middle of the A cluster. Under the nearest-neighbor classifier, a test element adjacent to this outlier would be labelled as class B, despite having far more 
+
+To fix this, instead of just looking at the closest neighbor, K nearest-neighbor fixes the outlier problem by expanding the range of elements to consider until K elements of the same class are found. Now, the predicted class won't be swayed by 1 or 2 (or any number less than k) outliers.
+
+\section{Task 4: Applied knn}
+
+I ran the knn classifier for k values of 1, 5, 10, 20, and 40, with m-values of 5, 20, 50, and 100. Note that for k=1, the training data will have no error since the image will be closest to itself. 
+
+\medskip \noindent
+For the training data, I got misclassification errors of:
+
+{
+\centering
+\begin{tabular}{lllllll}
+    & k=1 & 2    & 5    & 10   & 20   & 40   \\
+m=5 & -   & 0.42 & 0.52 & 0.53 & 0.59 & 0.58 \\
+20  & -   & 0.17 & 0.12 & 0.17 & 0.22 & 0.34 \\
+50  & -   & 0.08 & 0.04 & 0.08 & 0.16 & 0.26 \\
+100 & -   & 0.06 & 0.04 & 0.07 & 0.16 & 0.26
+\end{tabular}
+}
+
+\medskip \noindent
+For the testing data, I got misclassification errors of:
+
+%\begin{table}[htb]
+
+{
+\centering
+\begin{tabular}{lllllll}
+
+    & k=1  & 2    & 5    & 10   & 20   & 40   \\
+m=5 & 0.82 & 0.78 & 0.74 & 0.68 & 0.66 & 0.7  \\
+20  & 0.34 & 0.36 & 0.3  & 0.38 & 0.38 & 0.42 \\
+50  & 0.16 & 0.24 & 0.26 & 0.26 & 0.32 & 0.4  \\
+100 & 0.14 & 0.22 & 0.22 & 0.28 & 0.34 & 0.4 
+\end{tabular}
+}
+
+\medskip\noindent
+It's difficult to determine the exact optimal values for m and k. One surprise is that increasing m and (especially) k doesn't always decrease the testing error after m=20 and k=10. Oddly enough, the lowest testing error I found was for m=100 and k=1. As I explained in the previous section, k>1 will decrease the effect of solitary outliers, but for this particular training and testing set that doesn't seem to be an issue. Noticing how well k=1 performed actually inspired me to go back and test k=2 to add some granularity.
+
+Even though m=5 k=1 was the highest performing for this specific dataset, if we were to continue I might try m=50 or 100 and k=2 or 5.
+
+\end{document}

@@ -3,7 +3,7 @@ function knn_classifier
     [eigenvecs, mean_matrix] = calc_eigen_vecs(train_img);
     
     for m=[5 20 50 100]
-        for k=[1 5 10 20 40]
+        for k=[1 2 5 10 20 40]
             disp("==================");
             disp(['m = ' num2str(m) ', k = ' num2str(k)]);
 
