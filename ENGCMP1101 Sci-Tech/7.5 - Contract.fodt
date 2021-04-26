@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:officeooo="http://openoffice.org/2009/office" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:initial-creator>Emelyn Fuhrman</meta:initial-creator><dc:creator>Emelyn Fuhrman</dc:creator><meta:editing-cycles>2</meta:editing-cycles><meta:creation-date>2021-03-02T13:02:00</meta:creation-date><dc:date>2021-03-02T13:28:00</dc:date><meta:editing-duration>PT25M</meta:editing-duration><meta:generator>LibreOffice/6.4.7.2$Windows_X86_64 LibreOffice_project/639b8ac485750d5696d7590a72ef1b496725cfb5</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="2" meta:paragraph-count="14" meta:word-count="175" meta:character-count="2462" meta:non-whitespace-character-count="2297"/><meta:user-defined meta:name="AppVersion">16.0000</meta:user-defined><meta:user-defined meta:name="DocSecurity" meta:value-type="float">0</meta:user-defined><meta:user-defined meta:name="HyperlinksChanged" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="LinksUpToDate" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="ScaleCrop" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="ShareDoc" meta:value-type="boolean">false</meta:user-defined><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="Normal" xlink:href=""/></office:meta>
+ <office:meta><meta:initial-creator>Emelyn Fuhrman</meta:initial-creator><meta:editing-cycles>5</meta:editing-cycles><meta:creation-date>2021-03-02T13:02:00</meta:creation-date><dc:date>2021-04-25T21:28:57.536000000</dc:date><meta:editing-duration>PT40M10S</meta:editing-duration><meta:generator>LibreOffice/6.4.7.2$Windows_X86_64 LibreOffice_project/639b8ac485750d5696d7590a72ef1b496725cfb5</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="2" meta:paragraph-count="15" meta:word-count="264" meta:character-count="1639" meta:non-whitespace-character-count="1383"/><meta:user-defined meta:name="AppVersion">16.0000</meta:user-defined><meta:user-defined meta:name="DocSecurity" meta:value-type="float">0</meta:user-defined><meta:user-defined meta:name="HyperlinksChanged" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="LinksUpToDate" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="ScaleCrop" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="ShareDoc" meta:value-type="boolean">false</meta:user-defined><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="Normal" xlink:href=""/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">3810</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaWidth" config:type="long">24661</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">22200</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">23973</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">21565</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">8119</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">3217</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">18397</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">10991</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleRight" config:type="long">24659</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">22199</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">3810</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">23971</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">25374</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -422,7 +422,13 @@
   <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Standard">
    <style:text-properties fo:font-size="12pt" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="Standard">
+  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="0003a04a"/>
+  </style:style>
+  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:rsid="0003a04a" officeooo:paragraph-rsid="0003a04a"/>
+  </style:style>
+  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="Standard">
    <style:paragraph-properties fo:text-align="center" style:justify-single-word="false" style:page-number="auto"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
@@ -430,6 +436,9 @@
   </style:style>
   <style:style style:name="T2" style:family="text">
    <style:text-properties fo:font-size="12pt" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
+  </style:style>
+  <style:style style:name="T3" style:family="text">
+   <style:text-properties fo:font-size="12pt" officeooo:rsid="0003a04a" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:page-layout style:name="pm1">
    <style:page-layout-properties fo:page-width="8.5in" fo:page-height="11in" style:num-format="1" style:print-orientation="portrait" fo:margin-top="1in" fo:margin-bottom="1in" fo:margin-left="1in" fo:margin-right="1in" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="36" style:layout-grid-base-height="0.25in" style:layout-grid-ruby-height="0in" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:layout-grid-base-width="0.1665in" style:layout-grid-snap-to="true" style:footnote-max-height="0in">
@@ -451,27 +460,27 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
-   <text:p text:style-name="P3"><text:span text:style-name="T1">ENGCMP1101 Final Project Contract</text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="T1">ENGCMP1101 Final Project Contract</text:span></text:p>
    <text:p text:style-name="P1"/>
-   <text:p text:style-name="Standard"><text:span text:style-name="T2">On this day, the _____ of April 2021, I ______________________________ agree to complete all materials listed below to the best of my ability. All materials will be proofread, free from error, and completed in a professional and timely manner. </text:span></text:p>
+   <text:p text:style-name="Standard"><text:span text:style-name="T2">On this day, the </text:span><text:span text:style-name="T3">22</text:span><text:span text:style-name="T2"> of April 2021, I </text:span><text:span text:style-name="T3">Adam Karl </text:span><text:span text:style-name="T2">agree to complete all materials listed below to the best of my ability. All materials will be proofread, free from error, and completed in a professional and timely manner. </text:span></text:p>
    <text:p text:style-name="P2"/>
    <text:p text:style-name="Standard"><text:span text:style-name="T2">Project Scope</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T2">I will be focusing on the following important need, issue, problem or question: __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________</text:span></text:p>
+   <text:p text:style-name="P3"><text:span text:style-name="T2">I will be focusing on the following important need, issue, problem or question: </text:span></text:p>
+   <text:p text:style-name="P3"><text:span text:style-name="T3">Rhetoric of social movements. When are movements able to successfully communicate their grievances and/or win supporters? What techniques do they use, and to what effect?</text:span></text:p>
    <text:p text:style-name="P2"/>
    <text:p text:style-name="Standard"><text:span text:style-name="T2">Materials</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T2">I will be using the following deliverables/materials for my Final Project: __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________</text:span></text:p>
+   <text:p text:style-name="Standard"><text:span text:style-name="T2">I will be using the following deliverables/materials for my Final Project: </text:span></text:p>
+   <text:p text:style-name="P4"><text:span text:style-name="T3">A </text:span><text:span text:style-name="T2">single substantial report. </text:span></text:p>
    <text:p text:style-name="P2"/>
    <text:p text:style-name="Standard"><text:span text:style-name="T2">Scope and Additional Details </text:span></text:p>
    <text:p text:style-name="Standard"><text:span text:style-name="T2">Each deliverable will be defined below with the necessary scope and requirements:</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T2">Item 1: ____________________________________________________________________________________________________________________________________________________________</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T2">Item 2: ____________________________________________________________________________________________________________________________________________________________</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T2">Item 3: ____________________________________________________________________________________________________________________________________________________________</text:span></text:p>
-   <text:p text:style-name="Standard"><text:soft-page-break/><text:span text:style-name="T2">Additional information or defined deliverables can be listed here: ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________</text:span></text:p>
+   <text:p text:style-name="P3"><text:span text:style-name="T2">Item 1:</text:span></text:p>
+   <text:p text:style-name="P3"><text:span text:style-name="T3">I don’t have a title yet (I probably won’t give it a title until I’m done writing), but I will submit a single report/essay of about 2000 words.</text:span></text:p>
+   <text:p text:style-name="P3"><text:span text:style-name="T3">The essay will have a loosely defined 3 sections. First: a researched history of rhetorical techniques. Second:</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T3">Examples from modern movements, including where they succeed (and fail) and why. Third: my personal experience being persuaded by protest rhetoric in order to demonstrate the power of persuasive arguments in action.</text:span></text:p>
    <text:p text:style-name="P2"/>
+   <text:p text:style-name="Standard"><text:span text:style-name="T2">I understand that this project is to be competed by me and only me unless otherwise agreed upon between instructor and student. I understand that any resources or outside materials </text:span><text:soft-page-break/><text:span text:style-name="T2">gathered or utilized in this project must be properly referenced within the deliverables and/or as an attachment to the final project. <text:s/>I understand this project will be submitted for review and a grade will be assigned. </text:span></text:p>
    <text:p text:style-name="P2"/>
-   <text:p text:style-name="Standard"><text:span text:style-name="T2">I understand that this project is to be competed by me and only me unless otherwise agreed upon between instructor and student. I understand that any resources or outside materials gathered or utilized in this project must be properly referenced within the deliverables and/or as an attachment to the final project. <text:s/>I understand this project will be submitted for review and a grade will be assigned. </text:span></text:p>
-   <text:p text:style-name="P2"/>
-   <text:p text:style-name="Standard"><text:span text:style-name="T2">Signature: ____________________________________________________________________</text:span></text:p>
+   <text:p text:style-name="Standard"><text:span text:style-name="T2">Signature: </text:span><text:span text:style-name="T3">Adam Karl</text:span></text:p>
   </office:text>
  </office:body>
 </office:document>
