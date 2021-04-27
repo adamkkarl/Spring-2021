@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:officeooo="http://openoffice.org/2009/office" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2021-04-26T15:54:37.644000000</meta:creation-date><meta:generator>LibreOffice/6.4.7.2$Windows_X86_64 LibreOffice_project/639b8ac485750d5696d7590a72ef1b496725cfb5</meta:generator><dc:date>2021-04-26T22:16:33.539000000</dc:date><meta:editing-duration>PT2H15M33S</meta:editing-duration><meta:editing-cycles>8</meta:editing-cycles><meta:document-statistic meta:table-count="0" meta:image-count="2" meta:object-count="0" meta:page-count="2" meta:paragraph-count="15" meta:word-count="561" meta:character-count="3413" meta:non-whitespace-character-count="2867"/></office:meta>
+ <office:meta><meta:creation-date>2021-04-26T15:54:37.644000000</meta:creation-date><meta:generator>LibreOffice/6.4.7.2$Windows_X86_64 LibreOffice_project/639b8ac485750d5696d7590a72ef1b496725cfb5</meta:generator><dc:date>2021-04-26T23:24:23.639000000</dc:date><meta:editing-duration>PT2H29M41S</meta:editing-duration><meta:editing-cycles>11</meta:editing-cycles><meta:document-statistic meta:table-count="0" meta:image-count="2" meta:object-count="0" meta:page-count="2" meta:paragraph-count="17" meta:word-count="999" meta:character-count="5948" meta:non-whitespace-character-count="4963"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">178</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">26763</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">22419</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">20158</config:config-item>
@@ -14,11 +14,11 @@
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
      <config:config-item config:name="ViewLeft" config:type="long">3041</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">12412</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">15672</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">178</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">26763</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">22417</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">20334</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">46919</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -86,7 +86,7 @@
    <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">2551801</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">2918084</config:config-item>
    <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
@@ -313,6 +313,22 @@
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties officeooo:paragraph-rsid="0020cef2"/>
   </style:style>
+  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties officeooo:paragraph-rsid="0026eff9"/>
+  </style:style>
+  <style:style style:name="P22" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties officeooo:paragraph-rsid="0027ddd5"/>
+  </style:style>
+  <style:style style:name="P23" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties officeooo:paragraph-rsid="002b75b7"/>
+  </style:style>
+  <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties officeooo:paragraph-rsid="002a2a89"/>
+  </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties style:font-name="Times New Roman" fo:font-size="10pt" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
   </style:style>
@@ -341,13 +357,49 @@
    <style:text-properties style:font-name="Times New Roman" fo:font-size="10pt" officeooo:rsid="0025a18f" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
   </style:style>
   <style:style style:name="T10" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" fo:font-size="10pt" fo:font-style="italic" officeooo:rsid="0020cef2" style:font-size-asian="10pt" style:font-style-asian="italic" style:font-size-complex="10pt" style:font-style-complex="italic"/>
+   <style:text-properties style:font-name="Times New Roman" fo:font-size="10pt" officeooo:rsid="0026eff9" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
   </style:style>
   <style:style style:name="T11" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" fo:font-size="10pt" fo:font-style="normal" officeooo:rsid="0020cef2" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal"/>
+   <style:text-properties style:font-name="Times New Roman" fo:font-size="10pt" officeooo:rsid="0027ddd5" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
   </style:style>
   <style:style style:name="T12" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" fo:font-size="10pt" officeooo:rsid="002978d1" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="T13" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" fo:font-size="10pt" officeooo:rsid="002a2a89" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="T14" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" fo:font-size="10pt" officeooo:rsid="002b75b7" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="T15" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" fo:font-size="10pt" officeooo:rsid="002c86c4" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="T16" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" fo:font-size="10pt" fo:font-style="italic" officeooo:rsid="0020cef2" style:font-size-asian="10pt" style:font-style-asian="italic" style:font-size-complex="10pt" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="T17" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" fo:font-size="10pt" fo:font-style="italic" officeooo:rsid="002978d1" style:font-size-asian="10pt" style:font-style-asian="italic" style:font-size-complex="10pt" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="T18" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" fo:font-size="10pt" fo:font-style="normal" officeooo:rsid="0020cef2" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T19" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" fo:font-size="10pt" fo:font-style="normal" officeooo:rsid="0026eff9" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T20" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" fo:font-size="10pt" fo:font-style="normal" officeooo:rsid="002978d1" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T21" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" fo:font-size="10pt" fo:font-style="normal" officeooo:rsid="002a2a89" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T22" style:family="text">
    <style:text-properties officeooo:rsid="0020cef2"/>
+  </style:style>
+  <style:style style:name="T23" style:family="text">
+   <style:text-properties officeooo:rsid="0026eff9"/>
+  </style:style>
+  <style:style style:name="T24" style:family="text">
+   <style:text-properties officeooo:rsid="002c86c4"/>
   </style:style>
   <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Graphics">
    <style:graphic-properties style:vertical-pos="top" style:vertical-rel="paragraph" style:horizontal-pos="center" style:horizontal-rel="paragraph" style:mirror="none" fo:clip="rect(0in, 0in, 0in, 0in)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
@@ -376,10 +428,8 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
    <text:p text:style-name="P15"><text:span text:style-name="T5">Dear future </text:span><text:span text:style-name="T7">presenter</text:span><text:span text:style-name="T5">,</text:span></text:p>
-   <text:p text:style-name="P8"/>
-   <text:p text:style-name="P8">When you’re creating the slideshow, don’t <text:span text:style-name="T12">be afraid to have some slides with minimal information.</text:span></text:p>
-   <text:p text:style-name="P13"/>
-   <text:p text:style-name="P16"><text:span text:style-name="T3">Perhaps Ms. Smith-Ferris will pay attention, but in my opinion slides </text:span><text:span text:style-name="T6">filled with text</text:span><text:span text:style-name="T3"> are the quickest way to lose the rest of your audience.</text:span></text:p>
+   <text:p text:style-name="P15"><text:span text:style-name="T5"/></text:p>
+   <text:p text:style-name="P24"><text:span text:style-name="T5">W</text:span><text:span text:style-name="T13">hen you’re designing your </text:span><text:span text:style-name="T15">slideshow, think about how your classmates will view every slide. D</text:span><text:span text:style-name="T3">on’t </text:span><text:span text:style-name="T4">be afraid to have some slides with minimal information. </text:span><text:span text:style-name="T3">Perhaps Ms. Smith-Ferris </text:span><text:span text:style-name="T10">stay with you</text:span><text:span text:style-name="T3">, but in my opinion slides </text:span><text:span text:style-name="T6">filled with text</text:span><text:span text:style-name="T3"> are the quickest way to lose the rest of your audience. </text:span><text:span text:style-name="T13">Instead, put a small amount of information on your slides and </text:span><text:span text:style-name="T15">use your speech to expand on those ideas</text:span><text:span text:style-name="T13">.</text:span></text:p>
    <text:p text:style-name="P16"><text:span text:style-name="T7"/></text:p>
    <text:p text:style-name="P14"><text:span text:style-name="T7">A</text:span><text:span text:style-name="T1">s an example of a minimal-information slide, consider this:</text:span></text:p>
    <text:p text:style-name="P13"/>
@@ -882,9 +932,9 @@
    <text:p text:style-name="P16"><text:span text:style-name="T3"/></text:p>
    <text:p text:style-name="P16"><text:span text:style-name="T3"/></text:p>
    <text:p text:style-name="P16"><text:span text:style-name="T3"/></text:p>
-   <text:p text:style-name="P17"><text:span text:style-name="T3">T</text:span><text:span text:style-name="T6">his slide could certainly be improved aesthetically, but it certainly emphasizes the importance of the two terms. I think there’s an inverse relation between how much text is on the slide and how important the audience perceives the text’s content to be. Since the rest of the presentation doesn’t make sense without an understanding of these terms, I decided to give them their own slide so they couldn’t possibly be overlooked.</text:span></text:p>
+   <text:p text:style-name="P17"><text:span text:style-name="T3">T</text:span><text:span text:style-name="T6">his slide could certainly be improved aesthetically, but it </text:span><text:span text:style-name="T15">succeeds</text:span><text:span text:style-name="T6"> </text:span><text:span text:style-name="T15">on emphasizing</text:span><text:span text:style-name="T6"> the importance of the two terms. I think there’s an inverse relation between how much text is on the slide and how important the audience perceives the text’s content to be. </text:span><text:span text:style-name="T13">With low information they will perceive high importance; with a burden of information they will perceive low importance.</text:span><text:span text:style-name="T6"> Since the rest of </text:span><text:span text:style-name="T13">my</text:span><text:span text:style-name="T6"> presentation doesn’t make sense without an understanding of these terms, I decided to give them their own slide so they couldn’t possibly be overlooked.</text:span></text:p>
    <text:p text:style-name="P17"><text:span text:style-name="T6"/></text:p>
-   <text:p text:style-name="P18"><text:span text:style-name="T8">Another way to </text:span><text:span text:style-name="T9">engage your audience is to use humor Instead of trying to explain asymptotic analysis, I instead used this comic:</text:span></text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T8">Another way to </text:span><text:span text:style-name="T9">engage your audience is to use humor. Instead of </text:span><text:span text:style-name="T10">attempting</text:span><text:span text:style-name="T9"> to explain </text:span><text:span text:style-name="T10">am advanced topic like</text:span><text:span text:style-name="T9"> asymptotic analysis, I instead used this comic:</text:span></text:p>
    <text:p text:style-name="P18"><text:span text:style-name="T9"/></text:p>
    <text:p text:style-name="P18"><draw:frame draw:style-name="fr1" draw:name="Image2" text:anchor-type="char" svg:width="4.8209in" svg:height="2.5846in" draw:z-index="1"><draw:image loext:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABBwAAAI0CAYAAAC+tDpkAAAAAXNSR0IArs4c6QAAAARnQU1B
@@ -2777,22 +2827,27 @@
    <text:p text:style-name="P19"><text:span text:style-name="T9"/></text:p>
    <text:p text:style-name="P19"><text:span text:style-name="T9"/></text:p>
    <text:p text:style-name="P19"><text:span text:style-name="T9"/></text:p>
-   <text:p text:style-name="P19"><text:span text:style-name="T9">This comic serves two purposes. The first is to grab the audience’s attention using a visually interesting image. The second is that it adequately provides a loose summary of the topic at hand.</text:span></text:p>
+   <text:p text:style-name="P19"><text:span text:style-name="T9">This comic serves two purposes. The first is to grab the audience’s attention </text:span><text:span text:style-name="T10">with</text:span><text:span text:style-name="T9"> a </text:span><text:span text:style-name="T10">(relatively)</text:span><text:span text:style-name="T9"> interesting image. The second is that it adequately provides a loose summary of the topic at hand.</text:span></text:p>
    <text:p text:style-name="P12"/>
-   <text:p text:style-name="P18"><text:soft-page-break/><text:span text:style-name="T8">Your classmates have different majors and backgrounds, so they are likely not knowledgeable of your topic. Therefore they will be looking for things to relate to. Using humor or a relevant comic can give them something to latch on to. Additionally, it can regain their attention if they’ve already lost interest. Most students won’t make their presentations this accessible, so it can help yours stand out. Of course, there’s a line between accessible and unprofessional, but I’ll leave that to your judgment.</text:span></text:p>
+   <text:p text:style-name="P18"><text:soft-page-break/><text:span text:style-name="T8">Your classmates have different majors and backgrounds, so they are likely not knowledgeable of your topic. </text:span><text:span text:style-name="T10">T</text:span><text:span text:style-name="T8">hey will be looking for things to relate to, </text:span><text:span text:style-name="T10">and</text:span><text:span text:style-name="T8"> </text:span><text:span text:style-name="T10">u</text:span><text:span text:style-name="T8">sing humor or a relevant comic can give them something to latch on to. Additionally, it can regain their attention if they’ve lost interest. Most students won’t make their presentations this accessible, so it can help yours stand out. Of course, there’s a line between accessible and unprofessional, but I’ll leave that to your judgment.</text:span></text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T8"/></text:p>
+   <text:p text:style-name="P21"><text:span text:style-name="T8">W</text:span><text:span text:style-name="T10">hen you’re what you’ll say during the presentation, you have a few options: </text:span><text:span text:style-name="T11">entirely scripted, partially scripted, or unscripted. While I don’t think it’s necessary to script every single word, having a thorough plan is the best way to make sure you stay on track and don’t lose your train of thought. I find that when I do the “real” presentation/take tangentially related topics jump into my mind, and I’m tempted to talk about them. You can see this from 6:22 to 6:31 in my presentation, when I improvise relating the topic to a student’s experience.</text:span></text:p>
+   <text:p text:style-name="P21"><text:span text:style-name="T11"/></text:p>
+   <text:p text:style-name="P22"><text:span text:style-name="T11">While </text:span><text:span text:style-name="T12">this is a relevant aside, I misspoke the line and</text:span><text:span text:style-name="T11"> broke the </text:span><text:span text:style-name="T12">logical </text:span><text:span text:style-name="T13">progression</text:span><text:span text:style-name="T11"> </text:span><text:span text:style-name="T12">of this slide. Looking back, I should’ve started started with the story about students struggling on a project while rewording “hours later” to “at 1am” <text:s/>(“only take a <text:s/>couple </text:span><text:span text:style-name="T17">hours, </text:span><text:span text:style-name="T20">then </text:span><text:span text:style-name="T17">hours</text:span><text:span text:style-name="T20"> later” <text:s/>is quite awkward</text:span><text:span text:style-name="T12">). After this anecdote, I could expand the idea by saying poor time estimation is unavoidable in the industry before concluding that the developers should make stakeholders aware of this phenomenon. </text:span><text:span text:style-name="T13">I find that I </text:span><text:span text:style-name="T21">tend to derail myself when I improvise, but it’s certainly possible to improvise a presentation and still sound intelligent.</text:span><text:span text:style-name="T17"> </text:span><text:span text:style-name="T13">The best advice I can give is to be aware of your own strengths and weaknesses when speaking and tailor your presentation style accordingly.</text:span></text:p>
    <text:p text:style-name="P16"><text:span text:style-name="T3"/></text:p>
-   <text:p text:style-name="P16"><text:span text:style-name="T3">Possibly the best way to set your presentation apart is through your tone of voice. </text:span><text:span text:style-name="T2">A common theme throughout your classmates’ presentations will be that virtually everyone will </text:span><text:span text:style-name="T3">speak in a dry, monotone manner.</text:span></text:p>
+   <text:p text:style-name="P16"><text:span text:style-name="T3">Possibly the best way to set your presentation apart is through your tone of voice. </text:span><text:span text:style-name="T2">A common theme throughout your classmates’ presentations will be that </text:span><text:span text:style-name="T10">most students</text:span><text:span text:style-name="T2"> will </text:span><text:span text:style-name="T3">speak in a dry, monotone manner.</text:span></text:p>
    <text:p text:style-name="P8"/>
-   <text:p text:style-name="P16"><text:span text:style-name="T3">To be honest, this is one of the areas where I’m least competent. </text:span><text:span text:style-name="T2">I personally find that when I attempt to show emotion, the “voice in my head” </text:span><text:span text:style-name="T3">sounds</text:span><text:span text:style-name="T2"> nuance</text:span><text:span text:style-name="T3">d</text:span><text:span text:style-name="T2"> and </text:span><text:span text:style-name="T3">utilizes</text:span><text:span text:style-name="T2"> inflection. </text:span><text:span text:style-name="T3">However, </text:span><text:span text:style-name="T2">when I play back the recording </text:span><text:span text:style-name="T3">I </text:span><text:span text:style-name="T2">sounds completely monotone. Although it might be uncomfortable, I recommend listening to snippets of your own presentation </text:span><text:span text:style-name="T3">and noting places you can improve.</text:span></text:p>
+   <text:p text:style-name="P16"><text:span text:style-name="T3">To be honest, this is one of the areas where I’m least competent. </text:span><text:span text:style-name="T2">I personally find that when I attempt to show emotion, the “voice in my head” </text:span><text:span text:style-name="T3">sounds</text:span><text:span text:style-name="T2"> nuance</text:span><text:span text:style-name="T3">d</text:span><text:span text:style-name="T2"> and </text:span><text:span text:style-name="T3">utilizes</text:span><text:span text:style-name="T2"> inflection. </text:span><text:span text:style-name="T3">However, </text:span><text:span text:style-name="T2">when I play back the recording </text:span><text:span text:style-name="T3">I </text:span><text:span text:style-name="T2">sound completely monotone. Although it might be uncomfortable, I recommend listening to snippets of your own presentation </text:span><text:span text:style-name="T3">and noting places you can improve.</text:span></text:p>
    <text:p text:style-name="P9"/>
-   <text:p text:style-name="P16"><text:span text:style-name="T2">I </text:span><text:span text:style-name="T3">find that emphasizing callbacks to ideas/keywords discussed earlier in the presentation to be the most important. While you know the narrative you’ve constructed throughout the presentation, it can be easy to forget that the audience does not. By clearly exaggerating callbacks to ideas or keywords you’ve previously discussed, the audience will be more likely to pick up on the connection. When the audience follows the presenter’s train of thought, </text:span><text:span text:style-name="T9">the presenter can lead the audience to simultaneously reach the same conclusion.</text:span></text:p>
+   <text:p text:style-name="P16"><text:span text:style-name="T2">I </text:span><text:span text:style-name="T3">find that emphasizing callbacks to ideas/keywords discussed earlier in the presentation to be </text:span><text:span text:style-name="T10">essential</text:span><text:span text:style-name="T3">. While you know the narrative you’ve constructed throughout the presentation, </text:span><text:span text:style-name="T10">it’s </text:span><text:span text:style-name="T3">easy to forget that the audience does not. By clearly exaggerating callbacks to ideas or keywords you’ve previously discussed, the audience will be more likely to pick up on the connection. When the audience follows the presenter’s train of thought, </text:span><text:span text:style-name="T9">the presenter can lead the audience to simultaneously reach the same conclusion.</text:span></text:p>
    <text:p text:style-name="P9"/>
    <text:p text:style-name="P9">If you’re able to use this process to eventually deliver a clear presentation that projects enthusiasm, you’ll be far better off than the rest of the class.</text:p>
    <text:p text:style-name="P9"/>
+   <text:p text:style-name="P23"><text:span text:style-name="T14">Another piece of advice I haven’t really seen before is to emphasize practicing the end of your presentation. When I was recording, I would begin the presentation but mess up and end early more often than not. By the time my recordings were usable, I had far more practice with the first half of my presentation than the second half. The result was far less competency in delivering my conclusion than I would’ve liked. From 7:22 to 8:20 is especially bad. </text:span><text:span text:style-name="T15">The entire presentation has been leading to this idea, but I misspeak several times while stumbling my way through this slide. I also didn’t have a script for this section because I thought the concept was simple enough that I could convey it clearly, but that obviously wasn’t the case. The conclusion is one of the most important pieces of a presentation, and I think it would’ve benefited from more focused practice.</text:span></text:p>
    <text:p text:style-name="P9"/>
-   <text:p text:style-name="P20"><text:span text:style-name="T2">W</text:span><text:span text:style-name="T4">hile I stand by all of the recommendations above, the most important thing to remember is that your presentation will never be perfect. Create a plan, refine that plan, and practice, but eventually just deliver the final product. Finding flaws in your work</text:span><text:span text:style-name="T10"> can</text:span><text:span text:style-name="T11"> help strengthen it, but there’s a limit to the usefulness of this line of thinking.</text:span><text:span text:style-name="T10"> </text:span><text:span text:style-name="T4">I spent too much time over-criticizing myself and </text:span><text:span text:style-name="T5">it dismantled my progress. One aspect of perfectionism is feeling that if something can’t be done perfectly, you might as well not even try.</text:span></text:p>
+   <text:p text:style-name="P20"><text:span text:style-name="T2">W</text:span><text:span text:style-name="T4">hile I stand by all of the recommendations above, the most important </text:span><text:span text:style-name="T10">piece of advice I can give is to remember</text:span><text:span text:style-name="T4"> that your presentation will never be perfect. Create a plan, refine that plan, and practice, but eventually just deliver the final product. Finding flaws in your work</text:span><text:span text:style-name="T16"> can</text:span><text:span text:style-name="T18"> help strengthen it, but </text:span><text:span text:style-name="T19">it has it’s limits</text:span><text:span text:style-name="T18">.</text:span><text:span text:style-name="T16"> </text:span><text:span text:style-name="T4">I spent too much time over-criticizing myself and </text:span><text:span text:style-name="T5">it dismantled my progress. One aspect of perfectionism is feeling that if something can’t be done perfectly, you might as well not even try.</text:span></text:p>
    <text:p text:style-name="P10"/>
-   <text:p text:style-name="P11">Best,</text:p>
+   <text:p text:style-name="P11">Best <text:span text:style-name="T23">of luck, and it’s only as big of a deal as you make it out to be.</text:span></text:p>
    <text:p text:style-name="P11"/>
    <text:p text:style-name="P11">Adam Karl</text:p>
   </office:text>
