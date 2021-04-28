@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:officeooo="http://openoffice.org/2009/office" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2021-04-25T14:44:18.639000000</meta:creation-date><meta:generator>LibreOffice/6.4.7.2$Windows_X86_64 LibreOffice_project/639b8ac485750d5696d7590a72ef1b496725cfb5</meta:generator><dc:date>2021-04-27T19:46:35.718000000</dc:date><meta:editing-duration>PT1H50M5S</meta:editing-duration><meta:editing-cycles>11</meta:editing-cycles><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="4" meta:paragraph-count="52" meta:word-count="925" meta:character-count="5583" meta:non-whitespace-character-count="4664"/></office:meta>
+ <office:meta><meta:creation-date>2021-04-25T14:44:18.639000000</meta:creation-date><meta:generator>LibreOffice/6.4.7.2$Windows_X86_64 LibreOffice_project/639b8ac485750d5696d7590a72ef1b496725cfb5</meta:generator><dc:date>2021-04-27T22:18:04.574000000</dc:date><meta:editing-duration>PT2H12M59S</meta:editing-duration><meta:editing-cycles>16</meta:editing-cycles><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="4" meta:paragraph-count="46" meta:word-count="1044" meta:character-count="6231" meta:non-whitespace-character-count="5197"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">5292</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">24661</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">22624</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">16819</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">19593</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">6546</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">4501</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">5292</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">0</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">24659</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">27914</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">22622</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -86,7 +86,7 @@
    <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">3442906</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">4150363</config:config-item>
    <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
@@ -190,6 +190,9 @@
    <style:text-properties fo:color="#000080" fo:language="zxx" fo:country="none" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" style:language-asian="zxx" style:country-asian="none" style:language-complex="zxx" style:country-complex="none"/>
   </style:style>
   <style:style style:name="Citation" style:family="text">
+   <style:text-properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="Emphasis" style:family="text">
    <style:text-properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <text:outline-style style:name="Outline">
@@ -305,27 +308,67 @@
    <style:text-properties style:font-name="Arial" officeooo:rsid="001d4daa" officeooo:paragraph-rsid="001d4daa"/>
   </style:style>
   <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties style:font-name="Arial" officeooo:rsid="001d4daa" officeooo:paragraph-rsid="00309ba6"/>
+   <style:text-properties style:font-name="Arial" officeooo:rsid="001d4daa" officeooo:paragraph-rsid="0029e0e2"/>
   </style:style>
   <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties style:font-name="Arial" officeooo:rsid="00309ba6" officeooo:paragraph-rsid="00309ba6"/>
+   <style:text-properties style:font-name="Arial" officeooo:rsid="001d4daa" officeooo:paragraph-rsid="0036ae5c"/>
   </style:style>
   <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties style:font-name="Arial" officeooo:rsid="0032388e" officeooo:paragraph-rsid="0032388e"/>
+   <style:text-properties style:font-name="Arial" officeooo:rsid="00309ba6" officeooo:paragraph-rsid="00309ba6"/>
   </style:style>
   <style:style style:name="P22" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties officeooo:paragraph-rsid="001ffb05"/>
+   <style:text-properties style:font-name="Arial" officeooo:rsid="0032388e" officeooo:paragraph-rsid="0032388e"/>
   </style:style>
   <style:style style:name="P23" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties officeooo:paragraph-rsid="0032388e"/>
+   <style:text-properties style:font-name="Arial" officeooo:rsid="0036593b" officeooo:paragraph-rsid="0036593b"/>
   </style:style>
   <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties officeooo:paragraph-rsid="00327343"/>
+   <style:text-properties style:font-name="Arial" officeooo:paragraph-rsid="001d4daa"/>
   </style:style>
   <style:style style:name="P25" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties style:font-name="Arial" officeooo:rsid="003a67a0" officeooo:paragraph-rsid="003a67a0"/>
+  </style:style>
+  <style:style style:name="P26" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties style:font-name="Arial" officeooo:rsid="003ce1fc" officeooo:paragraph-rsid="003ce1fc"/>
+  </style:style>
+  <style:style style:name="P27" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Arial" officeooo:rsid="003f545b" officeooo:paragraph-rsid="003f545b"/>
+  </style:style>
+  <style:style style:name="P28" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties style:font-name="Arial" officeooo:rsid="003f545b" officeooo:paragraph-rsid="003f545b"/>
+  </style:style>
+  <style:style style:name="P29" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="001ffb05"/>
+  </style:style>
+  <style:style style:name="P30" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="0032388e"/>
+  </style:style>
+  <style:style style:name="P31" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="00327343"/>
+  </style:style>
+  <style:style style:name="P32" style:family="paragraph" style:parent-style-name="Standard">
    <style:text-properties officeooo:rsid="00327343" officeooo:paragraph-rsid="00327343"/>
   </style:style>
-  <style:style style:name="P26" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P33" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="0037bfee"/>
+  </style:style>
+  <style:style style:name="P34" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="003b1477"/>
+  </style:style>
+  <style:style style:name="P35" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="00216d17"/>
+  </style:style>
+  <style:style style:name="P36" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="003ce1fc"/>
+  </style:style>
+  <style:style style:name="P37" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="003dd4d3"/>
+  </style:style>
+  <style:style style:name="P38" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties style:font-name="Arial" officeooo:rsid="001d4daa" officeooo:paragraph-rsid="001d4daa"/>
+  </style:style>
+  <style:style style:name="P39" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties officeooo:paragraph-rsid="001d4daa"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
@@ -392,64 +435,133 @@
    <style:text-properties style:font-name="Arial" fo:font-style="normal" officeooo:rsid="003488da" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T22" style:family="text">
-   <style:text-properties style:font-name="Arial" fo:font-style="italic" officeooo:rsid="0025ee64" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties style:font-name="Arial" fo:font-style="normal" officeooo:rsid="0036593b" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T23" style:family="text">
-   <style:text-properties style:font-name="Arial" fo:font-style="italic" officeooo:rsid="002d8d79" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties style:font-name="Arial" fo:font-style="normal" officeooo:rsid="001d4daa" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T24" style:family="text">
-   <style:text-properties style:font-name="Arial" fo:font-style="italic" officeooo:rsid="00341af5" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties style:font-name="Arial" fo:font-style="normal" officeooo:rsid="0037bfee" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T25" style:family="text">
-   <style:text-properties style:font-name="Arial" fo:font-style="italic" fo:font-weight="bold" officeooo:rsid="0027b496" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-style-complex="italic" style:font-weight-complex="bold"/>
+   <style:text-properties style:font-name="Arial" fo:font-style="normal" officeooo:rsid="0036ae5c" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T26" style:family="text">
-   <style:text-properties style:font-name="Arial" fo:font-style="italic" officeooo:rsid="001d4daa"/>
+   <style:text-properties style:font-name="Arial" fo:font-style="normal" officeooo:rsid="003dd4d3" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T27" style:family="text">
-   <style:text-properties style:font-name="Arial" officeooo:rsid="002c0e64"/>
+   <style:text-properties style:font-name="Arial" fo:font-style="italic" officeooo:rsid="0025ee64" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T28" style:family="text">
-   <style:text-properties style:font-name="Arial" officeooo:rsid="00309ba6"/>
+   <style:text-properties style:font-name="Arial" fo:font-style="italic" officeooo:rsid="002d8d79" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T29" style:family="text">
-   <style:text-properties style:font-name="Arial" officeooo:rsid="0032388e"/>
+   <style:text-properties style:font-name="Arial" fo:font-style="italic" officeooo:rsid="00341af5" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T30" style:family="text">
-   <style:text-properties style:font-name="Arial" officeooo:rsid="00327343"/>
+   <style:text-properties style:font-name="Arial" fo:font-style="italic" officeooo:rsid="003488da" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T31" style:family="text">
-   <style:text-properties style:font-name="Arial" officeooo:rsid="00341af5"/>
+   <style:text-properties style:font-name="Arial" fo:font-style="italic" officeooo:rsid="0036ae5c" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T32" style:family="text">
-   <style:text-properties style:text-position="0% 100%" style:font-name="Arial" officeooo:rsid="00216d17"/>
+   <style:text-properties style:font-name="Arial" fo:font-style="italic" fo:font-weight="bold" officeooo:rsid="0027b496" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-style-complex="italic" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T33" style:family="text">
-   <style:text-properties officeooo:rsid="0022d967"/>
+   <style:text-properties style:font-name="Arial" fo:font-style="italic" officeooo:rsid="001d4daa"/>
   </style:style>
   <style:style style:name="T34" style:family="text">
-   <style:text-properties officeooo:rsid="0022da97"/>
+   <style:text-properties style:font-name="Arial" officeooo:rsid="002c0e64"/>
   </style:style>
   <style:style style:name="T35" style:family="text">
-   <style:text-properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties style:font-name="Arial" officeooo:rsid="00309ba6"/>
   </style:style>
   <style:style style:name="T36" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="0023e8f0" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties style:font-name="Arial" officeooo:rsid="0032388e"/>
   </style:style>
   <style:style style:name="T37" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="0029e0e2" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties style:font-name="Arial" officeooo:rsid="00327343"/>
   </style:style>
   <style:style style:name="T38" style:family="text">
-   <style:text-properties officeooo:rsid="002c0e64"/>
+   <style:text-properties style:font-name="Arial" officeooo:rsid="00341af5"/>
   </style:style>
   <style:style style:name="T39" style:family="text">
-   <style:text-properties officeooo:rsid="002d8d79"/>
+   <style:text-properties style:font-name="Arial" officeooo:rsid="003488da"/>
   </style:style>
   <style:style style:name="T40" style:family="text">
-   <style:text-properties officeooo:rsid="00309ba6"/>
+   <style:text-properties style:font-name="Arial" officeooo:rsid="0035e640"/>
   </style:style>
   <style:style style:name="T41" style:family="text">
-   <style:text-properties officeooo:rsid="003488da"/>
+   <style:text-properties style:font-name="Arial" officeooo:rsid="001e17de"/>
+  </style:style>
+  <style:style style:name="T42" style:family="text">
+   <style:text-properties style:font-name="Arial" officeooo:rsid="001edc19"/>
+  </style:style>
+  <style:style style:name="T43" style:family="text">
+   <style:text-properties style:font-name="Arial" officeooo:rsid="0036593b"/>
+  </style:style>
+  <style:style style:name="T44" style:family="text">
+   <style:text-properties style:font-name="Arial" officeooo:rsid="0038f3c9"/>
+  </style:style>
+  <style:style style:name="T45" style:family="text">
+   <style:text-properties style:font-name="Arial" officeooo:rsid="003b1477"/>
+  </style:style>
+  <style:style style:name="T46" style:family="text">
+   <style:text-properties style:font-name="Arial" officeooo:rsid="0022da97"/>
+  </style:style>
+  <style:style style:name="T47" style:family="text">
+   <style:text-properties style:font-name="Arial" officeooo:rsid="003ce1fc"/>
+  </style:style>
+  <style:style style:name="T48" style:family="text">
+   <style:text-properties style:font-name="Arial" officeooo:rsid="003dd4d3"/>
+  </style:style>
+  <style:style style:name="T49" style:family="text">
+   <style:text-properties style:font-name="Arial" officeooo:rsid="003f545b"/>
+  </style:style>
+  <style:style style:name="T50" style:family="text">
+   <style:text-properties style:text-position="0% 100%" style:font-name="Arial" officeooo:rsid="00216d17"/>
+  </style:style>
+  <style:style style:name="T51" style:family="text">
+   <style:text-properties officeooo:rsid="0022d967"/>
+  </style:style>
+  <style:style style:name="T52" style:family="text">
+   <style:text-properties officeooo:rsid="0022da97"/>
+  </style:style>
+  <style:style style:name="T53" style:family="text">
+   <style:text-properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T54" style:family="text">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0023e8f0" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T55" style:family="text">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0029e0e2" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T56" style:family="text">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0036ae5c" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T57" style:family="text">
+   <style:text-properties officeooo:rsid="002c0e64"/>
+  </style:style>
+  <style:style style:name="T58" style:family="text">
+   <style:text-properties officeooo:rsid="002d8d79"/>
+  </style:style>
+  <style:style style:name="T59" style:family="text">
+   <style:text-properties fo:font-style="italic"/>
+  </style:style>
+  <style:style style:name="T60" style:family="text">
+   <style:text-properties officeooo:rsid="001d4daa"/>
+  </style:style>
+  <style:style style:name="T61" style:family="text">
+   <style:text-properties officeooo:rsid="003840d8"/>
+  </style:style>
+  <style:style style:name="T62" style:family="text">
+   <style:text-properties officeooo:rsid="0038f3c9"/>
+  </style:style>
+  <style:style style:name="T63" style:family="text">
+   <style:text-properties officeooo:rsid="003dd4d3"/>
+  </style:style>
+  <style:style style:name="T64" style:family="text">
+   <style:text-properties officeooo:rsid="003f545b"/>
   </style:style>
   <style:page-layout style:name="pm1">
    <style:page-layout-properties fo:page-width="8.5in" fo:page-height="11in" style:num-format="1" style:print-orientation="portrait" fo:margin-top="1in" fo:margin-bottom="1in" fo:margin-left="1in" fo:margin-right="1in" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.278in" style:layout-grid-ruby-height="0.139in" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0in">
@@ -471,59 +583,44 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
+   <text:p text:style-name="P28">Adam Karl</text:p>
+   <text:p text:style-name="P28">Professor Smith-Ferris</text:p>
+   <text:p text:style-name="P28">ENGCMP 1101</text:p>
+   <text:p text:style-name="P28">27 April 2021</text:p>
+   <text:p text:style-name="P28"/>
+   <text:p text:style-name="P27"><text:span text:style-name="T4">R</text:span>hetoric, Dr. King, and Kairos: A Journey</text:p>
    <text:p text:style-name="P3"/>
-   <text:p text:style-name="P14"><text:span text:style-name="T27">Protest rhetoric, xxxx, and</text:span><text:span text:style-name="T6"> Dr. King</text:span></text:p>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3">Toulmin Model</text:p>
-   <text:p text:style-name="P3"><text:tab/>claim</text:p>
-   <text:p text:style-name="P3"><text:tab/>evidence </text:p>
-   <text:p text:style-name="P3"><text:tab/><text:tab/>narrative, empirical, authoritative</text:p>
-   <text:p text:style-name="P3"><text:tab/>warrant</text:p>
-   <text:p text:style-name="P3"><text:tab/>nuancing: (backing, qualifier, rebuttal)</text:p>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3">3 modes of persuasion (aristotle)</text:p>
-   <text:p text:style-name="P3"><text:tab/>ethos – appeal to credibility</text:p>
-   <text:p text:style-name="P3"><text:tab/>pathos – emotional appeal</text:p>
-   <text:p text:style-name="P3"><text:tab/>logos (logical appeal)</text:p>
-   <text:p text:style-name="P3">kairos (timeliness)</text:p>
-   <text:p text:style-name="P19"><text:line-break/><text:tab/><text:span text:style-name="T1">The theory of persuasion is rooted in ideas </text:span><text:span text:style-name="T2">almost 2400 years old. While examining orators of the time, Aristotle divided their persuasive techniques into three </text:span><text:span text:style-name="T40">main </text:span><text:span text:style-name="T2">categories: ethos, logos, and pathos. </text:span><text:span text:style-name="T3">Ethos </text:span><text:span text:style-name="T33">represented an appeal to authority, and often relied upon the orator’s reputation as an expert in their field. </text:span><text:span text:style-name="T40">(</text:span>Geddes, John<text:span text:style-name="T40">)</text:span></text:p>
-   <text:p text:style-name="P11"><text:span text:style-name="T6"><text:tab/>L</text:span><text:span text:style-name="T7">ogos, sharing the same root word as logic, </text:span><text:span text:style-name="T6">appeals to the audiences logic by presenting a well-structured argument with </text:span><text:span text:style-name="T9">conclusions naturally following from well-established premises.</text:span></text:p>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P7">Pathos is an appeal to the <text:span text:style-name="T40">audience’s emotions. </text:span></text:p>
-   <text:p text:style-name="P8">A common use of pathos is to appeal to the audience’s fears in order to sway them to the speaker’s side. <text:span text:style-name="T34">This is the flavor of pathos </text:span></text:p>
+   <text:p text:style-name="P34"><text:span text:style-name="T8"><text:tab/></text:span><text:span text:style-name="T41">The theory of persuasion is rooted in ideas </text:span><text:span text:style-name="T42">almost 2400 years old. While examining orators of the time, Aristotle divided their techniques into three </text:span><text:span text:style-name="T47">modes of persuasion</text:span><text:span text:style-name="T42">: ethos, logos, and pathos </text:span><text:span text:style-name="T35">(</text:span><text:span text:style-name="T8">Geddes, John</text:span><text:span text:style-name="T35">)</text:span><text:span text:style-name="T42">. </text:span></text:p>
+   <text:p text:style-name="P34"><text:span text:style-name="T42"><text:tab/></text:span><text:span text:style-name="T7">Ethos </text:span><text:span text:style-name="T9">represent</text:span><text:span text:style-name="T45">s</text:span><text:span text:style-name="T9"> an appeal to authority, and often relie</text:span><text:span text:style-name="T40">s</text:span><text:span text:style-name="T9"> upon the orator’s reputation as an expert in their field. </text:span><text:span text:style-name="T40">Alternatively, ad agencies exploit ethos when they use actors or other well-liked celebrities to market a product.</text:span><text:span text:style-name="T9"> </text:span><text:span text:style-name="T6">L</text:span><text:span text:style-name="T7">ogos, sharing the same root word as logic, </text:span><text:span text:style-name="T6">appeals to the audiences logic by presenting a well-structured argument with </text:span><text:span text:style-name="T9">conclusions naturally following from well-established premises. </text:span><text:span text:style-name="T45">Finally, p</text:span><text:span text:style-name="T7">athos is an appeal to the </text:span><text:span text:style-name="T35">audience’s emotions. </text:span></text:p>
+   <text:p text:style-name="P11"><text:span text:style-name="T35"><text:tab/></text:span><text:span text:style-name="T6">A common use of pathos is to appeal to the audience’s fears in order to sway them to the speaker’s side. </text:span><text:span text:style-name="T46">This is the flavor of pathos </text:span><text:span text:style-name="T45">William Jenning Bryan used when he stated the gold standard would “crucify mankind upon a cross of gold.” </text:span></text:p>
    <text:p text:style-name="P8"/>
-   <text:p text:style-name="P20">Occasionally a fourth mode is added: kairos. <text:span text:style-name="T41">Kairos </text:span></text:p>
-   <text:p text:style-name="P20"/>
-   <text:p text:style-name="P20"/>
-   <text:p text:style-name="P20"/>
-   <text:p text:style-name="P21">Dr. Martin Luther King Jr. was a master of </text:p>
+   <text:p text:style-name="P36"><text:span text:style-name="T35"><text:tab/>Occasionally a fourth </text:span><text:span text:style-name="T43">rhetorical concept</text:span><text:span text:style-name="T35"> is </text:span><text:span text:style-name="T39">included</text:span><text:span text:style-name="T35">: kairos. </text:span><text:span text:style-name="T39">Kairos refers not to </text:span><text:span text:style-name="T30">what</text:span><text:span text:style-name="T39"> is said, but </text:span><text:span text:style-name="T40">rather</text:span><text:span text:style-name="T39"> </text:span><text:span text:style-name="T30">when</text:span><text:span text:style-name="T21"> it is said. </text:span><text:span text:style-name="T22">In order to be most effective, a message needs to be delivered to the right audience and at the right time. </text:span><text:span text:style-name="T24">(</text:span><text:span text:style-name="T23">“The Core of an Argument.”</text:span><text:span text:style-name="T24">)</text:span></text:p>
+   <text:p text:style-name="P21"/>
+   <text:p text:style-name="P21"/>
+   <text:p text:style-name="P21"/>
+   <text:p text:style-name="P22">Dr. Martin Luther King Jr. was a master of <text:span text:style-name="T62">using </text:span></text:p>
    <text:p text:style-name="P7"/>
-   <text:p text:style-name="P24"><text:span text:style-name="T6">On August 28</text:span><text:span text:style-name="T32">th</text:span><text:span text:style-name="T6"> 1963, Dr. Martin Luther King Jr. delivered the iconic ‘I Have a Dream’ speech, perhaps</text:span><text:span text:style-name="T7"> the most famous example of pathos in American history. </text:span></text:p>
-   <text:p text:style-name="P24"><text:span text:style-name="T7"/></text:p>
-   <text:p text:style-name="P24"><text:span text:style-name="T30">One day before his death, Dr. King delivered his final speech </text:span><text:span text:style-name="T28">“I have been to the Mountaintop.” Dr. King harnesses the Biblical story of Moses to </text:span><text:span text:style-name="T29">liken himself to a modern day prophet, saying:</text:span></text:p>
-   <text:p text:style-name="P10"><text:span text:style-name="T29"/></text:p>
-   <text:p text:style-name="P23"><text:span text:style-name="T29">“We&apos;ve got some difficult days ahead. But it doesn&apos;t matter with me now. Because I&apos;ve been to the mountaintop. And I don&apos;t mind. Like anybody, I would like to live a long life. Longevity has its place. But I&apos;m not concerned about that now. I just want to do God&apos;s will. And He&apos;s allowed me to go up to the mountain. And I&apos;ve looked over. And I&apos;ve seen </text:span><text:soft-page-break/><text:span text:style-name="T29">the promised land. I may not get there with you. But I want you to know tonight, that we, as a people, will get to the promised land.“</text:span></text:p>
-   <text:p text:style-name="P10"><text:span text:style-name="T29"/></text:p>
-   <text:p text:style-name="P23"><text:span text:style-name="T29">For me, no speech </text:span><text:span text:style-name="T30">quite demonstrates the power of</text:span><text:span text:style-name="T29"> pathos and condensation symbols </text:span><text:span text:style-name="T30">as well as this</text:span><text:span text:style-name="T29">. </text:span></text:p>
-   <text:p text:style-name="P23"><text:span text:style-name="T29"/></text:p>
-   <text:p text:style-name="P25"><text:span text:style-name="T29">A</text:span><text:span text:style-name="T5">lthough </text:span><text:span text:style-name="T31">I no longer have a </text:span></text:p>
-   <text:p text:style-name="P7"/>
+   <text:p text:style-name="P31"><text:span text:style-name="T6">On August 28</text:span><text:span text:style-name="T50">th</text:span><text:span text:style-name="T6"> 1963, Dr. Martin Luther King Jr. delivered the iconic ‘I Have a Dream’ speech, perhaps</text:span><text:span text:style-name="T7"> the most famous example of </text:span><text:span text:style-name="T44">hopeful</text:span><text:span text:style-name="T7"> pathos in American history. </text:span></text:p>
+   <text:p text:style-name="P31"><text:span text:style-name="T7"/></text:p>
+   <text:p text:style-name="P31"><text:span text:style-name="T37">One day before his death, Dr. King delivered his final speech </text:span><text:span text:style-name="T35">“I have been to the Mountaintop.” Dr. King harnesses the Biblical story of Moses to </text:span><text:span text:style-name="T36">liken himself to a modern day prophet, saying:</text:span></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="T36"/></text:p>
+   <text:p text:style-name="P30"><text:span text:style-name="T36">“We&apos;ve got some difficult days ahead. But it doesn&apos;t matter with me now. Because I&apos;ve been to the mountaintop. And I don&apos;t mind. Like anybody, I would like to live a long life. Longevity has its place. But I&apos;m not concerned about that now. I just want to do God&apos;s will. And He&apos;s allowed me to go up to the mountain. And I&apos;ve looked over. And I&apos;ve seen the promised land. I may not get there with you. But I want you to know tonight, that we, as a people, will get to the promised land.“</text:span></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="T36"/></text:p>
+   <text:p text:style-name="P30"><text:span text:style-name="T36">For me, no speech </text:span><text:span text:style-name="T37">quite demonstrates the power of</text:span><text:span text:style-name="T36"> pathos and condensation symbols </text:span><text:span text:style-name="T37">as well as this</text:span><text:span text:style-name="T36">. </text:span></text:p>
+   <text:p text:style-name="P30"><text:span text:style-name="T36"/></text:p>
+   <text:p text:style-name="P32"><text:span text:style-name="T36">A</text:span><text:span text:style-name="T5">lthough </text:span><text:span text:style-name="T38">I no longer have a </text:span></text:p>
+   <text:p text:style-name="P7"><text:soft-page-break/></text:p>
    <text:p text:style-name="P16"/>
    <text:p text:style-name="P16">Condensation symbols</text:p>
+   <text:p text:style-name="P16"/>
+   <text:p text:style-name="P36"><text:span text:style-name="T49">Along with his untimely death, the success of </text:span><text:span text:style-name="T47">The Civil Rights Movement </text:span><text:span text:style-name="T49">cemented Dr. King’s place in history</text:span><text:span text:style-name="T47">. </text:span></text:p>
+   <text:p text:style-name="P26"/>
+   <text:p text:style-name="P37"><text:span text:style-name="T47">In 2017, the Washington Post editorial board attributed </text:span><text:span text:style-name="T48">his greatness to achieving change without extremism, and even penned him as “a true conservative” </text:span><text:span text:style-name="T49">for his tactics</text:span><text:span text:style-name="T48"> (Hiatt, Fred et al.).</text:span></text:p>
    <text:p text:style-name="P3"/>
    <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3">Edward Sapir <text:span text:style-name="T4">later expanded the definition of condensation symbols, saying &quot;condensation symbols designate no clear referent but serve to &apos;condense&apos; into one symbol a host of different meanings and connotations.” He also </text:span><text:span text:style-name="T34">states, for better or for worse, “[the meanings] might diverge if more specific referents were attempted.” While </text:span></text:p>
+   <text:p text:style-name="P3"><text:span text:style-name="T61">Linguist </text:span>Edward Sapir <text:span text:style-name="T4">later expanded the definition of condensation symbols, saying &quot;condensation symbols designate no clear referent but serve to &apos;condense&apos; into one symbol a host of different meanings and connotations.” He also </text:span><text:span text:style-name="T52">states, for better or for worse, “[the meanings] might diverge if more specific referents were attempted.” While </text:span></text:p>
    <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"><text:tab/><text:span text:style-name="T39">After </text:span></text:p>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P6">Zarefsky strategic maneuvering</text:p>
-   <text:p text:style-name="P6"><text:tab/>using condensation symbols</text:p>
-   <text:p text:style-name="P6"><text:tab/>reframing the argument</text:p>
-   <text:p text:style-name="P6"><text:tab/>modifying the relevant audience</text:p>
-   <text:p text:style-name="P6"/>
-   <text:p text:style-name="P6">Stewart</text:p>
-   <text:p text:style-name="P6"><text:tab/>transforming Perception of History Target Audiences – think of exigence (past, present, and future will be defined by x problem without change)</text:p>
-   <text:p text:style-name="P6"><text:tab/>Transforming Perception of Society – strip opponents of legitimacy, offer discovery of self-worth for various members and mainstream audiences</text:p>
+   <text:p text:style-name="P3"><text:tab/><text:span text:style-name="T58">After </text:span></text:p>
    <text:p text:style-name="P9"/>
    <text:p text:style-name="P2"/>
    <text:p text:style-name="P2"/>
@@ -532,46 +629,49 @@
    <text:p text:style-name="P3"><text:tab/>uses</text:p>
    <text:p text:style-name="P1"><text:span text:style-name="T8"><text:tab/></text:span><text:span text:style-name="T9">dr king becoming one</text:span></text:p>
    <text:p text:style-name="P3"><text:tab/>personal experience</text:p>
-   <text:p text:style-name="P3"><text:tab/><text:tab/></text:p>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3">But at the same time, it is as necessary for me to be as vigorous in condemning the conditions which cause persons to feel that they must engage in riotous activities as it is <text:soft-page-break/>for me to condemn riots. I think America must see that riots do not develop out of thin air. Certain conditions continue to exist in our society which must be condemned as vigorously as we condemn riots. But in the final analysis, a riot is the language of the unheard.</text:p>
+   <text:p text:style-name="P3"><text:tab/></text:p>
+   <text:p text:style-name="P3"><text:tab/></text:p>
    <text:p text:style-name="P3"/>
    <text:p text:style-name="P3">And as long as America postpones justice, we stand in the position of having these recurrences of violence and riots over and over again. Social justice and progress are the absolute guarantors of riot prevention. </text:p>
    <text:p text:style-name="P3"/>
    <text:p text:style-name="P3"/>
    <text:p text:style-name="P3"/>
    <text:p text:style-name="P3"/>
-   <text:p text:style-name="P12"><text:span text:style-name="Citation"><text:span text:style-name="T13">I remember exactly where I was the first time I heard </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T14">a snippet of Dr. King’s “Other America’s” speech</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T13">. </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T12">It was December 25, 2016 </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T20">after </text:span></text:span></text:p>
-   <text:p text:style-name="P4"><text:span text:style-name="Citation"><text:span text:style-name="T36"/></text:span></text:p>
+   <text:p text:style-name="P12"><text:span text:style-name="Citation"><text:span text:style-name="T13">I remember exactly where I was the first time I heard </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T14">a snippet of Dr. King’s “Other America’s” speech</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T13">. </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T12">It was December 25, 2016 </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T20">after </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T26">a family Christmas gathering at my uncle’s retirement home.</text:span></text:span></text:p>
+   <text:p text:style-name="P4"><text:span text:style-name="Citation"><text:span text:style-name="T54"/></text:span></text:p>
    <text:p text:style-name="P12"><text:span text:style-name="Citation"><text:span text:style-name="T10">Christmas dinner was awkward, at least for me. It was partially because I’d recently withdrawn from school and didn’t want any well-intentioned family members to ask me any questions. </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T20">A</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T10">lso, I’d recently de-converted from Catholicism and hadn’t told my parents or Aunt, </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T15">a lifelong nun. Therefore I didn’t engage in conversation, which </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T16">gradually</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T15"> evolved from how the Eagles gave up this year to why BLM </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T20">riots</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T15"> caused Trump to win the election.</text:span></text:span></text:p>
+   <text:p text:style-name="P12"><text:soft-page-break/><text:span text:style-name="Citation"><text:span text:style-name="T10"/></text:span></text:p>
+   <text:p text:style-name="P12"><text:span text:style-name="Citation"><text:span text:style-name="T10">“</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T14">Of course black lives matter, </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T32">but</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T14"> [insert criticism of the</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T21">ir tactics</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T14">].</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T10">”</text:span></text:span></text:p>
    <text:p text:style-name="P12"><text:span text:style-name="Citation"><text:span text:style-name="T10"/></text:span></text:p>
-   <text:p text:style-name="P12"><text:span text:style-name="Citation"><text:span text:style-name="T10">“</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T14">Of course black lives matter, </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T25">but</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T14"> [insert criticism of the</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T21">ir tactics</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T14">].</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T10">”</text:span></text:span></text:p>
-   <text:p text:style-name="P12"><text:span text:style-name="Citation"><text:span text:style-name="T10"/></text:span></text:p>
-   <text:p text:style-name="P12"><text:span text:style-name="Citation"><text:span text:style-name="T20">Alternatively: </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T10">“</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T11">If Martin Luther King was </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T12">alive, he’d be in change of the Black Lives Matter movement, and it would look </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T22">completely</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T12"> different.” At that point in my life, </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T14">I would have agreed; </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T21">the </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T20">Dr. King </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T21">I learned about</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T20"> never would’ve let the protests be anything other than peaceful.</text:span></text:span></text:p>
-   <text:p text:style-name="P12"><text:span text:style-name="Citation"><text:span text:style-name="T14"><text:tab/></text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T18">As the gathering wound to a close, we said our goodbyes and left the retirement home. We packed up the car, and of course my mother had to squeeze in one last parking lot conversation with her siblings. I retreated to music as I always do when my social battery is run dry, and I dove back in to the newest rap album. </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T24">Thieves</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T20"> – Run the Jewels. Play.</text:span></text:span></text:p>
+   <text:p text:style-name="P12"><text:span text:style-name="Citation"><text:span text:style-name="T20">Alternatively: </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T10">“</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T11">If Martin Luther King was </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T12">alive, he’d be in change of the Black Lives Matter movement, and it would look </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T27">completely</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T12"> different.” At that point in my life, </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T14">I would have agreed; </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T21">the </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T20">Dr. King </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T21">I learned about</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T20"> never would’ve let the protests be anything other than peaceful.</text:span></text:span></text:p>
+   <text:p text:style-name="P12"><text:span text:style-name="Citation"><text:span text:style-name="T14"><text:tab/></text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T18">As the gathering wound to a close, we said our goodbyes and left the retirement home. We packed up the car, and of course my mother had to squeeze in one last parking lot conversation with her siblings. I retreated to music as I always do when my social battery is run dry, and I dove back in to the newest rap album. </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T29">Thieves</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T20"> – Run the Jewels. Play.</text:span></text:span></text:p>
    <text:p text:style-name="P12"><text:span text:style-name="Citation"><text:span text:style-name="T18"/></text:span></text:p>
    <text:p text:style-name="P15"><text:span text:style-name="Citation"><text:span text:style-name="T18"><text:tab/>As my dad turned the Honda Odyssey out of the parking lot, I heard th</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T21">ose</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T18"> words:</text:span></text:span></text:p>
    <text:p text:style-name="P4"><text:span text:style-name="Citation"><text:span text:style-name="T8"/></text:span></text:p>
    <text:p text:style-name="P3"/>
    <text:p text:style-name="P4"><text:span text:style-name="Citation">“I think America must see that riots do not develop out of thin air. Certain conditions continue to exist in our society which must be condemned as vigorously as we condemn riots. But in the final analysis, a riot is the language of the unheard.”</text:span></text:p>
-   <text:p text:style-name="P4"><text:span text:style-name="Citation"><text:span text:style-name="T35"/></text:span></text:p>
+   <text:p text:style-name="P4"><text:span text:style-name="Citation"><text:span text:style-name="T53"/></text:span></text:p>
    <text:p text:style-name="P4"><text:span text:style-name="Citation"><text:span text:style-name="T8"/></text:span></text:p>
    <text:p text:style-name="P13"><text:span text:style-name="Citation"><text:span text:style-name="T17">The voice and delivery unmistakably belonged to Dr. King, but it didn’t sound anything like the Dr. King I knew. </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T18">To me, he was the universally-beloved pacifist, America’s black Gandhi. </text:span></text:span></text:p>
-   <text:p text:style-name="P5"><text:span text:style-name="Citation"><text:span text:style-name="T37"/></text:span></text:p>
-   <text:p text:style-name="P5"><text:soft-page-break/><text:span text:style-name="Citation"><text:span text:style-name="T37">Slowly but surely</text:span></text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Citation"><text:span text:style-name="T55"/></text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Citation"><text:span text:style-name="T55">Slowly but surely</text:span></text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="Citation"><text:span text:style-name="T55"/></text:span></text:p>
+   <text:p text:style-name="P33"><text:span text:style-name="Citation"><text:span text:style-name="T24">While Dr. King is almost universally-beloved today, I wasn’t remotely aware that he was widely disliked during his lifetime. According to Gallup polls, t</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T25">hree years after the March on Washington, </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T31">sixty-three percent</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T25"> of Americans had a negative opinion of him </text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T24">(</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T23">Jones, Jeffrey M</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T24">)</text:span></text:span><text:span text:style-name="Citation"><text:span text:style-name="T25">.</text:span></text:span></text:p>
+   <text:p text:style-name="P20"><text:span text:style-name="Citation"><text:span text:style-name="T56"/></text:span></text:p>
+   <text:p text:style-name="P3"/>
+   <text:p text:style-name="P25">The concept of </text:p>
+   <text:p text:style-name="P25">The symbol of MLK certainly drove much of my political ideology as a teenager. However, the unraveling of such symbols can have just as much power.</text:p>
    <text:p text:style-name="P3"/>
    <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3">Edward Sapir, Encyclopedia of the social sciences &quot;Symbolism&quot;, Macmillan, (1934).</text:p>
-   <text:p text:style-name="P3"/>
+   <text:p text:style-name="P23">Works Cited</text:p>
    <text:p text:style-name="P3"/>
    <text:p text:style-name="P3"/>
-   <text:p text:style-name="P26"><text:span text:style-name="T8">Geddes, John. “The Persuasion Triad - Aristotle Still Teaches.” </text:span><text:span text:style-name="T26">The Interaction Design <text:tab/>Foundation</text:span><text:span text:style-name="T8">, 2016, www.interaction-design.org.</text:span></text:p>
+   <text:p text:style-name="P38">“The Core of an Argument.” <text:span text:style-name="T59">Writing Arguments: A Rhetoric with Readings</text:span>, by John D <text:tab/>Ramage et al., 8th ed., Longman, 2010, pp. 62–63. </text:p>
+   <text:p text:style-name="P38">Edward Sapir. &quot;Symbolism,&quot; <text:span text:style-name="Emphasis">Encyclopaedia of the Social Sciences </text:span>(New York), 14: <text:tab/>(1934) 492-495. </text:p>
+   <text:p text:style-name="P39"><text:soft-page-break/><text:span text:style-name="T8">Geddes, John. “The Persuasion Triad - Aristotle Still Teaches.” </text:span><text:span text:style-name="T33">The Interaction Design <text:tab/>Foundation</text:span><text:span text:style-name="T8">, 2016, www.interaction-design.org</text:span><text:span text:style-name="T8">.</text:span></text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T8">Hiatt, Fred, et al. “Martin Luther King Jr. Was a True Conservative.” </text:span><text:span text:style-name="T33">The Washington <text:tab/>Post</text:span><text:span text:style-name="T8">, WP Company, 15 Jan. 2017, www.washingtonpost.com. </text:span></text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T8">Jones, Jeffrey M. “Americans Divided on Whether King&apos;s Dream Has Been Realized.” <text:tab/></text:span><text:span text:style-name="T33">Gallup</text:span><text:span text:style-name="T8">, Gallup, 3 Apr. 2021, news.gallup.com.</text:span></text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T8"/></text:p>
   </office:text>
  </office:body>
 </office:document>
