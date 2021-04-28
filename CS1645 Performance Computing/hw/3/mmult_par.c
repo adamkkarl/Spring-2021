@@ -12,54 +12,30 @@
 #define TEST_RESULTS
 
 
-//Input Array A
-int inputArrayA  [NROW][NCOL];
-//Input Array B
-int inputArrayB  [NROW][NCOL];
-//Weights
-int Weight [NROW][NCOL];
-//Output Array C
-int outputArrayC [NROW][NCOL];
-
 struct timeval startTime;
 struct timeval finishTime;
 double timeIntervalLength;
 
-void *parallelCalc(void *threadid) {
-	long tid;
-	tid = (long)threadid;
-
-	int chunk_rows = NROW/NUM_THREADS;
-
-	int start_row = chunk_rows*tid;
-	int end_row = start_row+chunk_rows;
-
-	for(int row=start_row; row<end_row; row++)
-	{
-		for(int col=0; col<NCOL; col++)
-		{
-			int mySum = 0;
-			for(int i=0; i<NROW; i++) {
-				mySum += inputArrayA[row][i]*Weight[i][col];
-			}
-			mySum += inputArrayB[row][col]; //only add once
-			outputArrayC[row][col] += mySum;
-		}
-	}
-}
-
 
 int main(int argc, char* argv[])
 {
-	int i,j,k;
+	
+	//Input Array A
+	int inputArrayA  [NROW][NCOL];
+	//Input Array B
+	int inputArrayB  [NROW][NCOL];
+	//Weights
+	int Weights [NROW][NCOL];
+	//Output Array C
+	int outputArrayC [NROW][NCOL];
+	
+	
 	double totalSum;
-	
-	
 
 	//INITIALIZE ARRAYS
-	for(i=0;i<NROW;i++)
+	for(int i=0;i<NROW;i++)
 	{
-		for(j=0;j<NCOL;j++)
+		for(int j=0;j<NCOL;j++)
 		{
 			inputArrayA[i][j]= i*NCOL+j;
 			inputArrayB[i][j]= j*NCOL+j;
@@ -76,21 +52,32 @@ int main(int argc, char* argv[])
 
 
 	/* Fork a team of threads giving them their own copies of variables */
-	#pragma omp parallel private(nthreads, tid) {
-		/* Obtain thread number */
-		int tid = omp_get_thread_num();
-		int nthreads = omp_get_num_threads();
+#pragma omp parallel shared(inputArrayA,inputArrayB,Weights, outputArrayC) private(nthreads, tid) 
+	{
+	/* Obtain thread number */
+	int tid = omp_get_thread_num();
+	int nthreads = omp_get_num_threads();
 
+	
+	#pragma omp for schedule(static)
+	for(int row=start_row; row<end_row; row++)
+	{
+		if (tid == row % nthreads) {
+			for(int col=0; col<NCOL; col++){
+					int mySum = 0;
+					for(int i=0; i<NROW; i++) {
+						mySum += inputArrayA[row][i]*Weight[i][col];
+					}
+					mySum += inputArrayB[row][col]; //only add once
+					outputArrayC[row][col] += mySum;
+				}
+		}
+	}
+	
+	}
 		
 		
-		
-		
-		
-		
-		
-		
-		
-	}  /* All threads join master thread and disband */
+	/* All threads join master thread and disband */
 
 	//=========================================================
 	//Get the end time
