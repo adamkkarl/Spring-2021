@@ -44,7 +44,7 @@ int main(int argc, char* argv[])
 	gettimeofday(&startTime, NULL); /* START TIME */
 
 	//=========================================================
-
+	
 	int tid, nthreads;
 
 	/* Fork a team of threads giving them their own copies of variables */
