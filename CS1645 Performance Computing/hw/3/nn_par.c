@@ -1,3 +1,4 @@
+#include <omp.h>
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -8,7 +9,6 @@
 
 #define		NROW	1024
 #define		NCOL	NROW
-#define NUM_THREADS	4
 #define TEST_RESULTS
 
 struct timeval startTime;
@@ -31,30 +31,6 @@ double Loss [NROW];
 double val_sum;
 
 
-void *parallelCalc(void *threadid) {
-	long tid;
-	tid = (long)threadid;
-
-	int chunk_rows = NROW/NUM_THREADS;
-
-	//Y = RELU(AVE(XW))
-	for (int i=0; i<NROW; i+=NUM_THREADS)
-	{
-		for(int j=0; j<NCOL; j++)
-		{
-			for(int k=0; k<NCOL; k++)
-			{
-				outputY[i]+=inputArrayX[i][k]*Weight[k][j];
-				// printf("%g\n",outputY[i]);
-			}
-			outputY[i] /= NCOL;
-		}
-		if (outputY[i] < 0){outputY[i] = 0;}
-	}
-
-
-}
-
 int main(int argc, char* argv[])
 {
 	int i,j,k;
@@ -75,37 +51,44 @@ int main(int argc, char* argv[])
 	gettimeofday(&startTime, NULL); /* START TIME */
 	//=====================================================================
 
-	// DECLARE THREADS
-	pthread_t threads[NUM_THREADS];
-	int rc;
-	long t;
-	void *status;
 
+	/* Fork a team of threads giving them their own copies of variables */
+	#pragma omp parallel shared(inputArrayX,Weight, outputArrayY, outputY, total_sum)
+	{
+		/* Obtain thread number */
+		int tid = omp_get_thread_num();
+		int nthreads = omp_get_num_threads();
 
-	// CREATE MULTIPLE THREADS
-	for(t=0; t<NUM_THREADS; t++){
-		//printf("In main: creating thread %ld\n", t);
+		//Y = RELU(AVE(XW))
+		for (int i=0; i<NROW; i+=NUM_THREADS)
+		{
+			if(tid == i % nthreads) {
+				for(int j=0; j<NCOL; j++)
+				{
+					double mysum = 0;
+					for(int k=0; k<NCOL; k++)
+					{
+						mysum+=inputArrayX[i][k]*Weight[k][j];
+					}
+					outputY[i] = mysum;
+					outputY[i] /= NCOL;
+				}
+				if (outputY[i] < 0){outputY[i] = 0;}
+			}
+		}
 
-		rc = pthread_create(&threads[t], NULL, parallelCalc, (void *)t);
-
-		if (rc){
-			printf("ERROR; return code from pthread_create() is %d\n", rc);
-			exit(-1);
+	
+		//also parallelized
+		//Y = SOFTMAX(Y)
+		//Loss = Ground - Y
+		for (int i =0; i < NROW; i++){
+			if(tid == i % nthreads) {
+				outputY[i] = exp(outputY[i]);
+				total_sum += outputY[i];
+			}
 		}
 	}
-
-	// JOIN THREADS
-	for(t=0; t<NUM_THREADS; t++) {
-		rc = pthread_join(threads[t], &status);
-	}
-
-	//Y = SOFTMAX(Y)
-	//Loss = Ground - Y
-	for (int i =0; i < NROW; i++){
-		outputY[i] = exp(outputY[i]);
-		total_sum += outputY[i];
-	}
-	//
+	
 	for (int i =0; i < NROW; i++){
 		outputY[i] /= total_sum;
 		Loss[i] = outputY[i] - Ground[i];
@@ -135,8 +118,6 @@ int main(int argc, char* argv[])
 
 	//Print the interval lenght
 	printf("Interval length: %g msec.\n", timeIntervalLength);
-
-
 
 
 	return 0;
