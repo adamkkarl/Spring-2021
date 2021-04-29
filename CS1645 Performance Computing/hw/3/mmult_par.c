@@ -6,9 +6,7 @@
 
 #define		NROW	1024
 #define		NCOL	NROW
-
 #define TEST_RESULTS
-
 
 struct timeval startTime;
 struct timeval finishTime;
@@ -22,7 +20,6 @@ int inputArrayB  [NROW][NCOL];
 int Weight [NROW][NCOL];
 //Output Array C
 int outputArrayC [NROW][NCOL];
-
 
 int main(int argc, char* argv[])
 {
@@ -44,7 +41,7 @@ int main(int argc, char* argv[])
 	gettimeofday(&startTime, NULL); /* START TIME */
 
 	//=========================================================
-	
+
 	int tid, nthreads;
 
 	/* Fork a team of threads giving them their own copies of variables */

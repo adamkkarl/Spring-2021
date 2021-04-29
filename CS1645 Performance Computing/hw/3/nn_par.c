@@ -30,7 +30,6 @@ double Loss [NROW];
 //Check
 double val_sum;
 
-
 int main(int argc, char* argv[])
 {
 	int i,j,k;
@@ -50,7 +49,6 @@ int main(int argc, char* argv[])
 	//Get the start time
 	gettimeofday(&startTime, NULL); /* START TIME */
 	//=====================================================================
-
 
 	/* Fork a team of threads giving them their own copies of variables */
 	#pragma omp parallel shared(inputArrayX, Weight, outputY, total_sum)
@@ -78,7 +76,6 @@ int main(int argc, char* argv[])
 		}
 	}
 
-	//also parallelized
 	//Y = SOFTMAX(Y)
 	//Loss = Ground - Y
 	for (int i =0; i < NROW; i++){
