@@ -6,8 +6,6 @@
 
 #define		NROW	1024
 #define		NCOL	NROW
-#define		NUM_THREADS	4
-
 
 #define TEST_RESULTS
 
@@ -16,20 +14,18 @@ struct timeval startTime;
 struct timeval finishTime;
 double timeIntervalLength;
 
+//Input Array A
+int inputArrayA  [NROW][NCOL];
+//Input Array B
+int inputArrayB  [NROW][NCOL];
+//Weights
+int Weight [NROW][NCOL];
+//Output Array C
+int outputArrayC [NROW][NCOL];
+
 
 int main(int argc, char* argv[])
 {
-	
-	//Input Array A
-	int inputArrayA  [NROW][NCOL];
-	//Input Array B
-	int inputArrayB  [NROW][NCOL];
-	//Weights
-	int Weights [NROW][NCOL];
-	//Output Array C
-	int outputArrayC [NROW][NCOL];
-	
-	
 	double totalSum;
 
 	//INITIALIZE ARRAYS
@@ -46,37 +42,35 @@ int main(int argc, char* argv[])
 
 	//Get the start time
 	gettimeofday(&startTime, NULL); /* START TIME */
-	
+
 	//=========================================================
 
-
+	int tid, nthreads;
 
 	/* Fork a team of threads giving them their own copies of variables */
-#pragma omp parallel shared(inputArrayA,inputArrayB,Weights, outputArrayC) private(nthreads, tid) 
+	#pragma omp parallel shared(inputArrayA,inputArrayB,Weight, outputArrayC) private(nthreads, tid)
 	{
-	/* Obtain thread number */
-	int tid = omp_get_thread_num();
-	int nthreads = omp_get_num_threads();
+		/* Obtain thread number */
+		tid = omp_get_thread_num();
+		nthreads = omp_get_num_threads();
 
-	
-	#pragma omp for schedule(static)
-	for(int row=start_row; row<end_row; row++)
-	{
-		if (tid == row % nthreads) {
-			for(int col=0; col<NCOL; col++){
+		for(int row=0; row<NROW; row++)
+		{
+			if (tid == row % nthreads) {
+				for(int col=0; col<NCOL; col++){
 					int mySum = 0;
-					for(int i=0; i<NROW; i++) {
-						mySum += inputArrayA[row][i]*Weight[i][col];
+					for(int k=0; k<NROW; k++) {
+						mySum += inputArrayA[row][k]*Weight[k][col];
 					}
 					mySum += inputArrayB[row][col]; //only add once
 					outputArrayC[row][col] += mySum;
 				}
+			}
 		}
+
 	}
-	
-	}
-		
-		
+
+
 	/* All threads join master thread and disband */
 
 	//=========================================================
@@ -84,15 +78,14 @@ int main(int argc, char* argv[])
 	gettimeofday(&finishTime, NULL);  /* END TIME */
 
 
-
 	#ifdef TEST_RESULTS
 	//CALCULATE TOTAL SUM
 	//[Just for verification]
 	totalSum=0;
 	//
-	for(i=0;i<NROW;i++)
+	for(int i=0;i<NROW;i++)
 	{
-		for(j=0;j<NCOL;j++)
+		for(int j=0;j<NCOL;j++)
 		{
 			totalSum+=(double)outputArrayC[i][j];
 		}
