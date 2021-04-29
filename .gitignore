@@ -5,3 +5,9 @@
 mmult
 nn
 trap
+
+# from project
+hello_world
+mmult
+mmult_par.c
+scalar_mult.c
