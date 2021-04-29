@@ -53,14 +53,14 @@ int main(int argc, char* argv[])
 
 
 	/* Fork a team of threads giving them their own copies of variables */
-	#pragma omp parallel shared(inputArrayX,Weight, outputArrayY, outputY, total_sum)
+	#pragma omp parallel shared(inputArrayX, Weight, outputY, total_sum)
 	{
 		/* Obtain thread number */
 		int tid = omp_get_thread_num();
 		int nthreads = omp_get_num_threads();
 
 		//Y = RELU(AVE(XW))
-		for (int i=0; i<NROW; i+=NUM_THREADS)
+		for (int i=0; i<NROW; i+=nthreads)
 		{
 			if(tid == i % nthreads) {
 				for(int j=0; j<NCOL; j++)
@@ -76,19 +76,16 @@ int main(int argc, char* argv[])
 				if (outputY[i] < 0){outputY[i] = 0;}
 			}
 		}
-
-	
-		//also parallelized
-		//Y = SOFTMAX(Y)
-		//Loss = Ground - Y
-		for (int i =0; i < NROW; i++){
-			if(tid == i % nthreads) {
-				outputY[i] = exp(outputY[i]);
-				total_sum += outputY[i];
-			}
-		}
 	}
-	
+
+	//also parallelized
+	//Y = SOFTMAX(Y)
+	//Loss = Ground - Y
+	for (int i =0; i < NROW; i++){
+			outputY[i] = exp(outputY[i]);
+			total_sum += outputY[i];
+	}
+
 	for (int i =0; i < NROW; i++){
 		outputY[i] /= total_sum;
 		Loss[i] = outputY[i] - Ground[i];
@@ -99,21 +96,21 @@ int main(int argc, char* argv[])
 	gettimeofday(&finishTime, NULL);  /* after time */
 
 	#ifdef TEST_RESULTS
-		//CALCULATE TOTAL SUM
-		//[Just for verification]
-		val_sum=0;
-		//
-		for(i=0;i<NROW;i++)
-		{
-				val_sum+=(double)Loss[i];
-		}
+	//CALCULATE TOTAL SUM
+	//[Just for verification]
+	val_sum=0;
+	//
+	for(i=0;i<NROW;i++)
+	{
+		val_sum+=(double)Loss[i];
+	}
 
-		printf("\nTotal Sum = %g\n",val_sum);
+	printf("\nTotal Sum = %g\n",val_sum);
 	#endif
 
 	//Calculate the interval length
 	timeIntervalLength = (double)(finishTime.tv_sec-startTime.tv_sec) * 1000000
-	                     + (double)(finishTime.tv_usec-startTime.tv_usec);
+	+ (double)(finishTime.tv_usec-startTime.tv_usec);
 	timeIntervalLength=timeIntervalLength/1000;
 
 	//Print the interval lenght
