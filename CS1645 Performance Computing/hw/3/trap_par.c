@@ -64,7 +64,7 @@ int main(int argc, char* argv[])
 		}
 
 		//very last height only added once
-		if(tid==NUM_THREADS-1) {
+		if(tid==nthreads-1) {
 			f_result = cos(end);
 			area -= f_result*h/2;
 		}
