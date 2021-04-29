@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:officeooo="http://openoffice.org/2009/office" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2021-04-25T21:57:11.865000000</meta:creation-date><meta:generator>LibreOffice/6.4.7.2$Windows_X86_64 LibreOffice_project/639b8ac485750d5696d7590a72ef1b496725cfb5</meta:generator><dc:date>2021-04-28T20:29:45.212000000</dc:date><meta:editing-duration>PT22M57S</meta:editing-duration><meta:editing-cycles>5</meta:editing-cycles><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="2" meta:paragraph-count="15" meta:word-count="763" meta:character-count="4457" meta:non-whitespace-character-count="3693"/></office:meta>
+ <office:meta><meta:creation-date>2021-04-25T21:57:11.865000000</meta:creation-date><meta:generator>LibreOffice/6.4.7.2$Windows_X86_64 LibreOffice_project/639b8ac485750d5696d7590a72ef1b496725cfb5</meta:generator><dc:date>2021-04-28T21:32:40.242000000</dc:date><meta:editing-duration>PT25M54S</meta:editing-duration><meta:editing-cycles>6</meta:editing-cycles><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="3" meta:paragraph-count="18" meta:word-count="834" meta:character-count="4901" meta:non-whitespace-character-count="4064"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">63077</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">24661</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">22624</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">4785</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">6396</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">5427</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">74962</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">0</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">63077</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">24659</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">22622</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">85699</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -86,7 +86,7 @@
    <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">1396567</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">1428894</config:config-item>
    <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
@@ -257,22 +257,32 @@
    <style:text-properties officeooo:paragraph-rsid="0012700e"/>
   </style:style>
   <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="200%"/>
    <style:text-properties style:font-name="Times New Roman" fo:font-size="12pt" officeooo:rsid="00119f35" officeooo:paragraph-rsid="00119f35" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="200%"/>
    <style:text-properties style:font-name="Times New Roman" fo:font-size="12pt" officeooo:rsid="0012700e" officeooo:paragraph-rsid="0012700e" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="200%"/>
    <style:text-properties style:font-name="Times New Roman" fo:font-size="12pt" officeooo:rsid="00120521" officeooo:paragraph-rsid="00120521" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties style:font-name="Times New Roman" fo:font-size="12pt" officeooo:rsid="00142629" officeooo:paragraph-rsid="00142629" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
+   <style:paragraph-properties fo:line-height="200%"/>
+   <style:text-properties style:font-name="Times New Roman" fo:font-size="12pt" officeooo:rsid="00142629" officeooo:paragraph-rsid="0015cd9e" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties officeooo:paragraph-rsid="00142629"/>
+   <style:paragraph-properties fo:line-height="200%"/>
+   <style:text-properties officeooo:rsid="0015cd9e" officeooo:paragraph-rsid="0015cd9e"/>
   </style:style>
   <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="200%"/>
    <style:text-properties officeooo:paragraph-rsid="00154f57"/>
+  </style:style>
+  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="200%"/>
+   <style:text-properties officeooo:paragraph-rsid="00142629"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties style:font-name="Times New Roman" fo:font-size="12pt" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
@@ -293,22 +303,31 @@
    <style:text-properties style:font-name="Times New Roman" fo:font-size="12pt" officeooo:rsid="00120521" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="T7" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" fo:font-size="12pt" fo:font-weight="bold" officeooo:rsid="00142629" style:font-size-asian="12pt" style:font-weight-asian="bold" style:font-size-complex="12pt" style:font-weight-complex="bold"/>
+   <style:text-properties style:font-name="Times New Roman" fo:font-size="12pt" officeooo:rsid="0015c410" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="T8" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="00142629" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Times New Roman" fo:font-size="12pt" fo:font-weight="bold" officeooo:rsid="00142629" style:font-size-asian="12pt" style:font-weight-asian="bold" style:font-size-complex="12pt" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T9" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="italic" officeooo:rsid="00154f57" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-size-complex="12pt" style:font-style-complex="italic"/>
+   <style:text-properties style:font-name="Times New Roman" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="00142629" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T10" style:family="text">
-   <style:text-properties officeooo:rsid="0012700e"/>
+   <style:text-properties style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="italic" officeooo:rsid="00154f57" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-size-complex="12pt" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T11" style:family="text">
-   <style:text-properties officeooo:rsid="00154f57"/>
+   <style:text-properties officeooo:rsid="0012700e"/>
   </style:style>
   <style:style style:name="T12" style:family="text">
+   <style:text-properties officeooo:rsid="00154f57"/>
+  </style:style>
+  <style:style style:name="T13" style:family="text">
    <style:text-properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="T14" style:family="text">
+   <style:text-properties officeooo:rsid="0015c410"/>
+  </style:style>
+  <style:style style:name="T15" style:family="text">
+   <style:text-properties officeooo:rsid="0015cd9e"/>
   </style:style>
   <style:page-layout style:name="pm1">
    <style:page-layout-properties fo:page-width="8.5in" fo:page-height="11in" style:num-format="1" style:print-orientation="portrait" fo:margin-top="0.7874in" fo:margin-bottom="0.7874in" fo:margin-left="0.7874in" fo:margin-right="0.7874in" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.278in" style:layout-grid-ruby-height="0.139in" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0in">
@@ -330,31 +349,30 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
-   <text:p text:style-name="P2">Hey Professor,</text:p>
-   <text:p text:style-name="P2"/>
-   <text:p text:style-name="P2"><text:tab/>First, I wanted to say that despite this spring being the most stressful semester of my academic career, I still managed to really enjoy your class. </text:p>
-   <text:p text:style-name="P2"/>
-   <text:p text:style-name="P2"/>
-   <text:p text:style-name="P2">I found the most impactful lectures to be the first few that focused on rhetorical theory. </text:p>
-   <text:p text:style-name="P2"/>
-   <text:p text:style-name="P2"><text:tab/>I remember when I was a child I perceived an almost magical quality to many timeless phrases, and found it incredible that (for example) many of Ben Franklin’s sayings could by far outlive him. <text:span text:style-name="T11">There’s a level of immortality associated with coining a phrase or creating a great piece of art that I’ve always been fascinated with.</text:span></text:p>
-   <text:p text:style-name="P12"><text:span text:style-name="T2"><text:tab/>A </text:span><text:span text:style-name="T6">core aspect of my personality is how much I learn about myself and the world around me through media, especially music and movies. When I consume media, I find myself extremely emotionally moved by certain </text:span><text:span text:style-name="T5">movies/scenes/etc. where I know something is meaningful to me even if I can’t quite express </text:span><text:span text:style-name="T9">why.</text:span></text:p>
-   <text:p text:style-name="P3"><text:tab/>As an adult, I’ve been extremely attracted to well-written critiques of entertainment, ranging from music, film, and television, to even art and video games. I find that critics of the entertainment I love are able to “translate the magic back into English,” and help me decipher exactly what about the work I find so meaningful. Over the years, I’ve slowly absorbed their techniques and become more competent in translating my opinions back into words.</text:p>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P8">Similar to the way I gained the tools to express my opinions on entertainment, I believe your class has helped me to analyze both my personal political beliefs as well as the political opinions I hear on the news or elsewhere.</text:p>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3"/>
-   <text:p text:style-name="P10"><text:tab/>For my final project, I wanted to more in depth on rhetorical techniques in MLK’s speeches, along with my personal experience of MLK as a condensation symbol.</text:p>
-   <text:p text:style-name="P11"><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T5">The ‘I have a Dream’ speech particularly utilizes positive pathos and condensation symbols. The first time he introduces his “dream” he ties it to both the American dream and the Declaration’s statement that all men are created equal. </text:span></text:p>
-   <text:p text:style-name="P11"><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T5">Despite being an atheist, I find the end of his ‘I’ve been to the Mountaintop’ speech to be the most moving oration I’ve ever heard. He’s a perfect metaphorical stand-in for Moses and his disregard for self-preservation portrays uncompromising dedication.</text:span></text:p>
+   <text:p text:style-name="P7">Hey Professor,</text:p>
+   <text:p text:style-name="P7"/>
+   <text:p text:style-name="P7"><text:tab/>First, I wanted to say that despite this spring being the most stressful semester of my academic career, I still managed to really enjoy your class. </text:p>
+   <text:p text:style-name="P7"><text:tab/>I found the most impactful lectures to be the first few that focused on rhetorical theory. <text:span text:style-name="T14">While I did get some value out of the movement-specific portions (I had never even heard of the Young Lords before), I certainly value the tools to examine movements and ideologies over knowledge about the movements themselves, because now that I have the tools I notice condensation symbols and </text:span><text:span text:style-name="T15">Toulmin model elements everywhere I look.</text:span></text:p>
+   <text:p text:style-name="P7"><text:tab/>I remember when I was a child I perceived an almost magical quality to many timeless phrases, and found it incredible that (for example) many of Ben Franklin’s sayings could by far outlive him. <text:span text:style-name="T12">There’s a level of immortality associated with coining a phrase or creating a great piece of art that I’ve always been fascinated with.</text:span></text:p>
+   <text:p text:style-name="P12"><text:span text:style-name="T2"><text:tab/>A </text:span><text:span text:style-name="T6">core aspect of my personality is how much I learn about myself and the world around me through media, especially music and movies. When I consume media, I find myself extremely emotionally moved by certain </text:span><text:span text:style-name="T5">movies/scenes/etc. where I know something is meaningful to me even if I can’t quite express </text:span><text:span text:style-name="T10">why.</text:span></text:p>
+   <text:p text:style-name="P9"><text:tab/>As an adult, I’ve been extremely attracted to well-written critiques of entertainment, ranging from music, film, and television, to even art and video games. I find that critics of the entertainment I love are able to “translate the magic back into English,” and help me decipher exactly what about the work I find so meaningful. Over the years, I’ve slowly absorbed their techniques and become more competent in translating my opinions back into words.</text:p>
+   <text:p text:style-name="P8"><text:tab/>Similar to the way I gained the tools to express my opinions on entertainment, I believe your class has helped me to analyze both my personal political beliefs as well as the political opinions I hear on the news or elsewhere. </text:p>
+   <text:p text:style-name="P9"><text:soft-page-break/></text:p>
+   <text:p text:style-name="P9"/>
+   <text:p text:style-name="P9"/>
+   <text:p text:style-name="P10"><text:tab/></text:p>
+   <text:p text:style-name="P10"/>
+   <text:p text:style-name="P10"><text:tab/>For my final project, I wanted to more in depth on rhetorical techniques in MLK’s speeches, along with my personal experience of MLK as a condensation symbol <text:span text:style-name="T14">himself</text:span>.</text:p>
+   <text:p text:style-name="P13"><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T5">The ‘I have a Dream’ speech particularly utilizes positive pathos and condensation symbols. The first time he introduces his “dream” he ties it to both the American dream and the Declaration’s statement that all men are created equal. </text:span></text:p>
+   <text:p text:style-name="P13"><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T5">Despite being an atheist, I find the end of his ‘I’ve been to the Mountaintop’ speech to be the most moving oration I’ve ever heard. He’s a perfect metaphorical stand-in for Moses and his disregard for self-preservation portrays uncompromising dedication.</text:span></text:p>
    <text:p text:style-name="P12"><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T5">I think the amount this speech moves me says something important about the subconscious power of condensation symbols. </text:span><text:span text:style-name="T4">I don’t </text:span><text:span text:style-name="T5">have a shred of reverence for the</text:span><text:span text:style-name="T4"> Moses story anymore, but I find I still have residual emotions tied to the story as a symbol. Einstein once said, “Common sense is the collection of prejudices acquired by age eighteen.” More or less, I think the same can be said for the emotion people affix to condensation symbols.</text:span></text:p>
    <text:p text:style-name="P12"><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T5">Due to the success of the movement and his untimely death, MLK became perhaps the most important condensation symbol for how “protesting should be done.” In 2017, the Washington Post editorial board attributed his greatness to achieving change without extremism, and even penned him as “a true conservative” for his tactics.</text:span></text:p>
-   <text:p text:style-name="P11"><text:span text:style-name="T4"><text:tab/>I remember where I was when I heard a snippet from MLK’s Other America speech. Dec 25, 2016 after Christmas dinner at my uncle’s retirement home. I didn’t want to talk to my family much </text:span><text:soft-page-break/><text:span text:style-name="T4">during Christmas dinner, I had dropped out of school a month prior and also secretly de-converted from Catholicism while my family is ultra-religious and my aunt is a nun. During this point in my life I was somewhere at the beginning of the alt-right pipeline and would’ve quietly agreed with the conversation that BLM was part of the reason Trump won the election. I remember my dad offering: “if MLK was alive today, he’d be in charge of BLM and it would look </text:span><text:span text:style-name="T7">completely</text:span><text:span text:style-name="T8"> different.</text:span><text:span text:style-name="T4">” As we left dinner I jumped back into the latest rap album. Thieves by Run the Jewels. The song depicts a riot, and ends with Dr. King’s words:</text:span></text:p>
-   <text:p text:style-name="P11"><text:span text:style-name="T12">“I think America must see that riots do not develop out of thin air. Certain conditions continue to exist in our society which must be condemned as <text:tab/>vigorously as we condemn riots. But in the final analysis, a riot is the language of the unheard.”</text:span></text:p>
-   <text:p text:style-name="P11"><text:span text:style-name="T4"><text:tab/>Hearing these words at a particularly tumultuous point in my life (kairos) was the most important piece of political socialization in my life. Over the next few days, learning about the real Dr. King completely shattered the version of him I thought I knew. Over the next few months, I dove really deep into philosophy and questioned anything else in my life that I might have similar misconceptions of. </text:span></text:p>
+   <text:p text:style-name="P13"><text:span text:style-name="T4"><text:tab/>I remember where I was when I heard a snippet from MLK’s Other America speech. Dec 25, 2016 after Christmas dinner at my uncle’s retirement home. I didn’t want to talk to my family much during Christmas dinner, I had dropped out of school a month prior and also secretly de-converted from </text:span><text:soft-page-break/><text:span text:style-name="T4">Catholicism while my family is ultra-religious and my aunt is a nun. During this point in my life I was somewhere at the beginning of the alt-right pipeline and would’ve quietly agreed with the conversation that BLM was part of the reason Trump won the election. I remember my dad offering: “if MLK was alive today, he’d be in charge of BLM and it would look </text:span><text:span text:style-name="T8">completely</text:span><text:span text:style-name="T9"> different.</text:span><text:span text:style-name="T4">” As we left dinner I jumped back into the latest rap album. Thieves by Run the Jewels. The song depicts a riot, and ends with Dr. King’s words:</text:span></text:p>
+   <text:p text:style-name="P13"><text:span text:style-name="T13">“I think America must see that riots do not develop out of thin air. Certain conditions continue to exist in our society which must be condemned as <text:tab/>vigorously as we condemn riots. But in the final analysis, a riot is the language of the unheard.”</text:span></text:p>
+   <text:p text:style-name="P13"><text:span text:style-name="T4"><text:tab/>Hearing these words at a particularly tumultuous point in my life (kairos) was the most important piece of political socialization in my life. Over the next few days, learning about the real Dr. King completely shattered the version of him I thought I knew. Over the next few months, I dove really deep into philosophy and questioned anything else in my life that I might have similar misconceptions of. </text:span></text:p>
+   <text:p text:style-name="P13"><text:span text:style-name="T4"><text:tab/></text:span><text:span text:style-name="T5">Breaking down condensation symbols can be </text:span><text:span text:style-name="T7">just as powerful of the symbols themselves.</text:span></text:p>
+   <text:p text:style-name="P13"><text:span text:style-name="T7"/></text:p>
+   <text:p text:style-name="P11"><text:span text:style-name="T7">A</text:span><text:span text:style-name="T1">dam Karl</text:span></text:p>
   </office:text>
  </office:body>
 </office:document>
