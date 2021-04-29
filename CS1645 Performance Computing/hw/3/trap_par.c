@@ -11,12 +11,10 @@
 #define		P_START	0
 #define		P_END	10
 
-
 struct timeval startTime;
 struct timeval finishTime;
 double timeIntervalLength;
 double finalArea;
-
 
 int main(int argc, char* argv[])
 {
@@ -77,7 +75,6 @@ int main(int argc, char* argv[])
 	//Get the end time
 	gettimeofday(&finishTime, NULL);  /* after time */
 
-
 	printf("Result : %.2lf \n",finalArea);
 
 	//Calculate the interval length
@@ -87,7 +84,6 @@ int main(int argc, char* argv[])
 
 	//Print the interval lenght
 	printf("Interval length: %g msec.\n", timeIntervalLength);
-
 
 	return 0;
 }
